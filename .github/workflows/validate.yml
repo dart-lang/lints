@@ -1,0 +1,29 @@
+name: validate
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check for sources
+        run: |
+          filecount=`find lib -name '*.dart' | wc -l`
+          if [ $filecount -ne 0 ] || [ -d "bin" ]
+          then
+            echo 'Dart sources are not allowed in this package!'
+            exit 1
+          fi
