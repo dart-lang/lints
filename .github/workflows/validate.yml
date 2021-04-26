@@ -21,7 +21,8 @@ jobs:
 
       - name: Check for sources
         run: |
-          if [ -d "lib" ] || [ -d "bin" ]
+          filecount=`find lib -name '*.dart' | wc -l`
+          if [ $filecount -ne 0 ] || [ -d "bin" ]
           then
             echo 'Dart sources are not allowed in this package!'
             exit 1
