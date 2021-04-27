@@ -1,8 +1,7 @@
 # Lints recommended for Flutter apps and packages.
-#
-# This file is meant to be used in combination with the lints defined in
-# core.yaml and recommend.yaml. Consider importing all three files in your
-# project's analysis_options.yaml file.
+
+include: package:lints/recommend.yaml
+
 linter:
   rules:
     - avoid_print
