@@ -1,5 +1,5 @@
 name: lints
-description: Lints that represent the Dart style guide
+description: Official Dart and Flutter lint rules
 version: 0.1.0
 homepage: https://dart.dev/guides/language/effective-dart
 
