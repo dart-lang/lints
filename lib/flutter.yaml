@@ -1,6 +1,6 @@
 # Lints recommended for Flutter apps and packages.
 
-include: package:lints/recommend.yaml
+include: package:lints/recommended.yaml
 
 linter:
   rules:
