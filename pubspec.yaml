@@ -1,6 +1,6 @@
 name: lints
-description: Official Dart and Flutter lint rules
-version: 0.1.0
+description: Official Dart lint rules.
+version: 1.0.0-dev.0
 homepage: https://dart.dev/guides/language/effective-dart
 
 environment:
