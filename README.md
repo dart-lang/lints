@@ -24,7 +24,7 @@ to pass these lints. The recommended lints include all the core lints.
 ## Where these lints are used
 
 When creating new Dart project using the [`dart create`][dart create] command,
-the 'recommended' set of lints are enabled by default.
+the lints from `package:lints` are enabled by default.
 
 When uploading a package to the [pub.dev] package repository, packages are
 [awarded pub points][scoring] depending on whether they pass at least the 'core'
