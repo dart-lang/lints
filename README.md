@@ -17,8 +17,8 @@ lead to problems when running or consuming Dart code. All code should pass these
 lints.
 
 * ***Recommended lints***: Lints that help identify additional issues that may
-to lead to problems when running or consuming Dart code, and lints that enforce
-writing Dart using a single, ideomatic style and format. All code is encouraged
+lead to problems when running or consuming Dart code, and lints that enforce
+writing Dart using a single, idiomatic style and format. All code is encouraged
 to pass these lints. The recommended lints include all the core lints.
 
 ## How these lints are used
@@ -26,11 +26,11 @@ to pass these lints. The recommended lints include all the core lints.
 When creating new Dart project using the [`dart create`][dart create] command,
 the 'recommended' set of lints are enabled by default.
 
-When uploading a package to the [pub.dev] package repository, packages [are
-scored pub point][scoring] depending on whether they pass at least the 'core'
+When uploading a package to the [pub.dev] package repository, packages are
+[awarded pub point][scoring] depending on whether they pass at least the 'core'
 lints (note: the recommended lints automatically include all core lints). 
 
-For documentation on the individual lints, see the [Linter rules][rules] page on
+For documentation on the individual lints, see the [linter rules][rules] page on
 dart.dev.
 
 ## Customizing the pre-defined lint sets
