@@ -46,7 +46,9 @@ dev_dependencies:
   lints: ^1.0.0
 ```
 
-2. Create a new `analysis_options.yaml` file, next to the pubspec, that includes
+2. Run `dart pub get` to get the package.
+
+3. Create a new `analysis_options.yaml` file, next to the pubspec, that includes
 the lints package:
 
 ```yaml
