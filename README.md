@@ -39,8 +39,7 @@ For new apps created with `dart create`, the lints are enabled by default.
 
 For existing apps or packages, take these steps to enable these lints:
 
-1. Add a *dev* dependency on this package to your `pubspec.yaml` file.  At the root
-of your package:
+1. In a terminal, located at the root of your package, run this command:
 
 ```terminal
 dart pub add --dev lints
