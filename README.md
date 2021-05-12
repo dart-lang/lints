@@ -49,7 +49,7 @@ dart pub add --dev lints
 the lints package:
 
 ```yaml
-include: package:lints/core.yaml
+include: package:lints/recommended.yaml
 ```
 
 ## Customizing the pre-defined lint sets
