@@ -55,7 +55,7 @@ include: package:lints/core.yaml
 or:
 
 ```yaml
-include: package:lints/core.yaml
+include: package:lints/recommended.yaml
 ```
 
 ## Customizing the pre-defined lint sets
