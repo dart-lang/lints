@@ -1,7 +1,6 @@
 name: lints
 description: Official Dart lint rules. Defines the 'core' and 'recommended' set of lints suggested by the Dart team.
 version: 1.0.0
-homepage: https://dart.dev/guides/language/effective-dart
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
