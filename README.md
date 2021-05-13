@@ -52,6 +52,12 @@ the lints package:
 include: package:lints/recommended.yaml
 ```
 
+or:
+
+```yaml
+include: package:lints/core.yaml
+```
+
 ## Customizing the pre-defined lint sets
 
 You can customize the pre-defined lint sets, both to disable one or more of the
