@@ -69,7 +69,7 @@ analysis].
 Feedback is welcome! If you want to propose an existing lint for inclusion here,
 check to see if there is already an open [issue] and chime in.  If there is not,
 please start a conversation with a new issue. If you have questions about existing
-lint or have an idea for a new one, please file an issue on the [linter repo].
+lints or have an idea for a new one, please file an issue on the [linter repo].
 
 
 [dart create]: https://dart.dev/tools/dart-tool
