@@ -64,8 +64,18 @@ You can customize the pre-defined lint sets, both to disable one or more of the
 lints included, or to add additional lints. For details see [customizing static
 analysis].
 
+## Submitting Feedback
+
+Feedback is welcome! If you want to propose an existing lint for inclusion here,
+check to see if there is already an open [issue] and chime in.  If there is not,
+please start a conversation with a new issue. If you have questions about existing
+lints or have an idea for a new one, please file an issue on the [linter repo].
+
+
 [dart create]: https://dart.dev/tools/dart-tool
 [scoring]: https://pub.dev/help/scoring
 [customizing static analysis]: https://dart.dev/guides/language/analysis-options
 [rules]: https://dart.dev/tools/linter-rules
 [pub.dev]: https://pub.dev
+[issue]: https://github.com/dart-lang/lints/issues
+[linter repo]: https://github.com/dart-lang/linter
