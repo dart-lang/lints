@@ -64,15 +64,17 @@ You can customize the pre-defined lint sets, both to disable one or more of the
 lints included, or to add additional lints. For details see [customizing static
 analysis].
 
-## Migrating from the pedantic package
+## Migrating from `package:pedantic`
 
-In migrating from the pre-defined lint sets provided by the [pedantic package],
-you get additional static analysis coverage from 29 additional lints.  There
-are, however, 6 lints which the pedantic package includes which are not
-included in the pre-defined lint sets provided by the lints package:
+In migrating from the pre-defined lint sets provided by the [`package:pedantic`],
+you get static analysis coverage from 29 additional lints.  There are, however,
+6 lints which the pedantic package includes which are not included in the
+pre-defined lint sets provided by the lints package:
 `always_declare_return_types`, `prefer_single_quotes`,
-`sort_child_properties_last`, `unawaited_futures`, `unsafe_html`, and
-`use_full_hex_values_for_flutter_colors`. To keep any of these lints enabled,
+`sort_child_properties_last` (included in [`package:flutter_lints`]),
+`unawaited_futures`, `unsafe_html`, and
+`use_full_hex_values_for_flutter_colors` (included in [`package:flutter_lints`]).
+To keep any of these lints enabled,
 add them to your [analysis options][customizing static analysis].
 
 [dart create]: https://dart.dev/tools/dart-tool
@@ -80,4 +82,5 @@ add them to your [analysis options][customizing static analysis].
 [customizing static analysis]: https://dart.dev/guides/language/analysis-options
 [rules]: https://dart.dev/tools/linter-rules
 [pub.dev]: https://pub.dev
-[pedantic package]: https://pub.dev/packages/pedantic
+[`package:pedantic`]: https://pub.dev/packages/pedantic
+[`package:flutter_lints`]: https://pub.dev/packages/flutter_lints
