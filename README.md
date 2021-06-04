@@ -77,10 +77,20 @@ pre-defined lint sets provided by the lints package:
 To keep any of these lints enabled,
 add them to your [analysis options][customizing static analysis].
 
+## Submitting Feedback
+
+Feedback is welcome! If you want to propose an existing lint for inclusion here,
+check to see if there is already an open [issue] and chime in.  If there is not,
+please start a conversation with a new issue. If you have questions about existing
+lints or have an idea for a new one, please file an issue on the [linter repo].
+
+
 [dart create]: https://dart.dev/tools/dart-tool
 [scoring]: https://pub.dev/help/scoring
 [customizing static analysis]: https://dart.dev/guides/language/analysis-options
 [rules]: https://dart.dev/tools/linter-rules
 [pub.dev]: https://pub.dev
+[issue]: https://github.com/dart-lang/lints/issues
+[linter repo]: https://github.com/dart-lang/linter
 [`package:pedantic`]: https://pub.dev/packages/pedantic
 [`package:flutter_lints`]: https://pub.dev/packages/flutter_lints
