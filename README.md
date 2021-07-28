@@ -86,7 +86,7 @@ we know to write Dart code. The informal process we use is:
     is at the [linter repo].) Feedback is welcome from any Dart user.
 
 2.  Periodically, a group of Dart and Flutter team members meet to review the
-    suggests and decide what to adopt.
+    suggestions and decide what to adopt.
 
 3.  The lists are updated and a new version of the package is published.
 
