@@ -6,7 +6,4 @@ contact_links:
   - name: Report an issue with a lint
     url: https://github.com/dart-lang/linter/issues/new?assignees=&labels=&template=issue-report.md&title=
     about: Create an issue report for an existing lint.
-  - name: Propose a lint for inclusion in Flutter
-    url: https://github.com/flutter/flutter/issues/new?assignees=&labels=p:%20flutter_lints
-    about: Propose a new lint for inclusion in `package:flutter_lints`.
     
