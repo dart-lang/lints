@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Propose a new lint
+    url: https://github.com/dart-lang/linter/issues/new?assignees=&labels=enhancement%2C+lint+request&template=lint-request.md&title=
+    about: Request a new lint rule.
+  - name: Report an issue with a lint
+    url: https://github.com/dart-lang/linter/issues/new?assignees=&labels=&template=issue-report.md&title=
+    about: Create an issue report for an existing lint.
+    
