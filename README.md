@@ -68,10 +68,9 @@ you get static analysis coverage from 29 additional lints. There are, however,
 6 lints which the pedantic package includes which are not included in the
 predefined lint sets provided by the lints package:
 `always_declare_return_types`, `prefer_single_quotes`,
-`sort_child_properties_last` (included in [`package:flutter_lints`]),
-`unawaited_futures`, `unsafe_html`, and
-`use_full_hex_values_for_flutter_colors` (included in [`package:flutter_lints`]).
-To keep any of these lints enabled,
+`sort_child_properties_last`, `unawaited_futures`, `unsafe_html`, and
+`use_full_hex_values_for_flutter_colors` (also included in
+[`package:flutter_lints`]). To keep any of these lints enabled,
 add them to your [analysis options][customizing static analysis].
 
 ## Evolving the lint sets
