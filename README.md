@@ -73,6 +73,11 @@ predefined lint sets provided by the lints package:
 [`package:flutter_lints`]). To keep any of these lints enabled,
 add them to your [analysis options][customizing static analysis].
 
+Additionally, `package:pedantic` provides the `unawaited` method for use with
+`unawaited_futures`. With SDK version 2.14 this method is available in the
+`dart:async` package, and this is now the recommended way to use it. Be sure to
+mark the minimum SDK version of your package as `2.14` if you do so.
+
 ## Evolving the lint sets
 
 The Dart language changes and the ecosystem continues to develop new best 
