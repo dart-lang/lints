@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Added `unsafe_unicode` to the core set of lints.
+
 ## 1.0.1
 
 - Documentation updates

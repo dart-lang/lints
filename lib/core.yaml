@@ -24,5 +24,6 @@ linter:
     - provide_deprecation_message
     - unnecessary_overrides
     - unrelated_type_equality_checks
+    - unsafe_unicode
     - valid_regexps
     - void_checks
