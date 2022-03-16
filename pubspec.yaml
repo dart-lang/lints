@@ -5,7 +5,7 @@ repository: https://github.com/dart-lang/lints
 version: 2.0.0
 
 environment:
-  sdk: '>=2.17.0-0 <3.0.0'
+  sdk: '>=2.17.0-206.0.dev <3.0.0'
 
 # dependencies:
 # dev_dependencies:
