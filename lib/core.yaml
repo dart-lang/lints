@@ -8,6 +8,7 @@ linter:
     - camel_case_extensions
     - camel_case_types
     - curly_braces_in_flow_control_structures
+    - depend_on_referenced_packages
     - empty_catches
     - file_names
     - hash_and_equals
@@ -15,6 +16,7 @@ linter:
     - list_remove_unrelated_type
     - no_duplicate_case_values
     - non_constant_identifier_names
+    - null_check_on_nullable_type_parameter
     - package_prefixed_library_names
     - prefer_generic_function_type_aliases
     - prefer_is_empty
