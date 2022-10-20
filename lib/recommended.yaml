@@ -1,3 +1,12 @@
+# This set of lints builds on top of `package:lints/core.yaml`; it includes
+# lints that help identify additional issues that may lead to problems when
+# running or consuming Dart code, as well as lints that enforce writing Dart
+# using a single, idiomatic style. See https://github.com/dart-lang/lints for
+# more information.
+#
+# For documentation about customizing static analysis for your project, see
+# https://dart.dev/guides/language/analysis-options.
+
 include: package:lints/core.yaml
 
 linter:
