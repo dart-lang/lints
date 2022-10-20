@@ -1,3 +1,8 @@
+## 2.0.1
+
+- Updated documentation for the `lib/core.yaml` and `lib/recommended.yaml`
+  analysis configurations.
+
 ## 2.0.0
 
 - Added the following lints to core.yaml:
