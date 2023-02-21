@@ -1,0 +1,16 @@
+# This set of lints builds on top of `package:lints/recommended.yaml`;
+# it includes extra lints that help identify additional issues that may
+# lead to problems when running or consuming Dart code.
+#
+# For documentation about customizing static analysis for your project, see
+# https://dart.dev/guides/language/analysis-options.
+
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - avoid_dynamic_calls
+    - avoid_type_to_string
+    - no_runtimeType_toString
+    - discarded_futures
+    - no_adjacent_strings_in_list
