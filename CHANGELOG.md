@@ -1,3 +1,10 @@
+## 2.1.0
+
+- Updated SDK lower-bound to 3.0
+- Removed `always_require_non_null_named_parameters` from `recommended.yaml`
+  as it is only relevant in Dart pre 2.12 and with Dart 3.0, libraries can
+  no longer be opted back that far.
+
 ## 2.0.1
 
 - Updated documentation for the `lib/core.yaml` and `lib/recommended.yaml`
