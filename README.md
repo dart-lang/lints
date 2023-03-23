@@ -9,7 +9,7 @@ Dart source code. More than a hundred [linter rules][rules] are available,
 checking anything from potential typing issues, coding style, and formatting.
 This package, `lints`, contains the lint settings recommended by the Dart team.
 
-Two sets of lints are available:
+Two sets of Dart lints are available:
 
 * **Core lints**: Lints that help identify critical issues that are likely to
 lead to problems when running or consuming Dart code. All code should pass these
@@ -19,6 +19,9 @@ lints.
 lead to problems when running or consuming Dart code, and lints that enforce
 writing Dart using a single, idiomatic style and format. All code is encouraged
 to pass these lints. The recommended lints include all the core lints.
+
+Finally, a third set [`flutter_lints`](https://pub.dev/packages/flutter_lints)
+extends the recommended set with additional recommencded Flutter-specific lints.
 
 ## Where these lints are used
 
