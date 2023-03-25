@@ -21,7 +21,7 @@ writing Dart using a single, idiomatic style and format. All code is encouraged
 to pass these lints. The recommended lints include all the core lints.
 
 Finally, a third set [`flutter_lints`](https://pub.dev/packages/flutter_lints)
-extends the recommended set with additional recommencded Flutter-specific lints.
+extends the recommended set with additional recommended Flutter-specific lints.
 
 ## Where these lints are used
 
