@@ -6,7 +6,7 @@ description: >
 repository: https://github.com/dart-lang/lints
 
 environment:
-  sdk: ^3.0.0
+  sdk: ^3.0.0-417
 
 # NOTE: Code is not allowed in this package. Do not add dependencies.
 # dependencies:
