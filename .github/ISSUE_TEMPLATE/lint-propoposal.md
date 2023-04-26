@@ -1,6 +1,6 @@
 ---
-name: Lint proposal
-about: Propose adding an existing lint rule to a defined rule set.
+name: Add an existing lint to the `core` or `recommended` rule set
+about: Propose adding an existing lint rule to the `core` or `recommended` rule set.
 title: ''
 labels: type-lint
 assignees: ''
