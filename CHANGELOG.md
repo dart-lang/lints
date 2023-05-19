@@ -1,3 +1,7 @@
+## 2.1.1-dev
+
+- Added the `analysis` and `lints` topics to the pubspec file.
+
 ## 2.1.0
 
 - Updated SDK lower-bound to 3.0
