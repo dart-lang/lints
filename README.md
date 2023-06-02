@@ -26,8 +26,6 @@ to pass these lints. The recommended lints include all the core lints.
 Additionally, a third lint set -
 [`package:flutter_lints`](https://pub.dev/packages/flutter_lints) - extends the
 recommended set with additional recommended Flutter-specific lints.
-Documentation on that can be found at
-[github.com/flutter/packages](https://github.com/flutter/packages/tree/main/packages/flutter_lints).
 
 The Dart team will likely not provide recommendations past `core` and
 `recommended` sets (e.g., a `strict` rule set). There are many such rule sets in
