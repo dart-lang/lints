@@ -27,13 +27,15 @@ Additionally, a third lint set -
 [`package:flutter_lints`](https://pub.dev/packages/flutter_lints) - extends the
 recommended set with additional recommended Flutter-specific lints.
 
-The Dart team will likely not provide recommendations past `core` and
-`recommended` sets (e.g., a `strict` rule set). There are many such rule sets in
-the ecosystem however (available at [pub.dev](https://pub.dev/)).
+The Dart team will likely not provide recommendations past the `core` and
+`recommended` sets (e.g., a `strict` rule set). However, there are many such rule
+sets in the ecosystem (available at [pub.dev](https://pub.dev/)).
 
 Rule set authors: consider adding the `lints` topic to your pubspec to allow
 easier discovery (e.g.,
 [pub.dev/packages?q=topic:lints](https://pub.dev/packages?q=topic%3Alints)).
+For more information about topics, see
+[dart.dev/tools/pub/pubspec#topics](https://dart.dev/tools/pub/pubspec#topics).
 
 ## Where these lints are used
 
