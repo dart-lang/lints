@@ -1,0 +1,910 @@
+[
+  {
+    "name": "always_use_package_imports",
+    "description": "Avoid relative imports for files in `lib/`."
+  },
+  {
+    "name": "avoid_dynamic_calls",
+    "description": "Avoid method calls or property accesses on a \"dynamic\" target."
+  },
+  {
+    "name": "avoid_empty_else",
+    "description": "Avoid empty else statements."
+  },
+  {
+    "name": "avoid_print",
+    "description": "Avoid `print` calls in production code."
+  },
+  {
+    "name": "avoid_relative_lib_imports",
+    "description": "Avoid relative imports for files in `lib/`."
+  },
+  {
+    "name": "avoid_returning_null_for_future",
+    "description": "Avoid returning null for Future."
+  },
+  {
+    "name": "avoid_slow_async_io",
+    "description": "Avoid slow async `dart:io` methods."
+  },
+  {
+    "name": "avoid_type_to_string",
+    "description": "Avoid <Type>.toString() in production code since results may be minified."
+  },
+  {
+    "name": "avoid_types_as_parameter_names",
+    "description": "Avoid types as parameter names."
+  },
+  {
+    "name": "avoid_web_libraries_in_flutter",
+    "description": "Avoid using web-only libraries outside Flutter web plugin packages."
+  },
+  {
+    "name": "cancel_subscriptions",
+    "description": "Cancel instances of dart.async.StreamSubscription."
+  },
+  {
+    "name": "close_sinks",
+    "description": "Close instances of `dart.core.Sink`."
+  },
+  {
+    "name": "collection_methods_unrelated_type",
+    "description": "Invocation of various collection methods with arguments of unrelated types."
+  },
+  {
+    "name": "comment_references",
+    "description": "Only reference in scope identifiers in doc comments."
+  },
+  {
+    "name": "control_flow_in_finally",
+    "description": "Avoid control flow in finally blocks."
+  },
+  {
+    "name": "deprecated_member_use_from_same_package",
+    "description": "Avoid using deprecated elements from within the package in which they are declared."
+  },
+  {
+    "name": "diagnostic_describe_all_properties",
+    "description": "DO reference all public properties in debug methods."
+  },
+  {
+    "name": "discarded_futures",
+    "description": "Don't invoke asynchronous functions in non-async blocks."
+  },
+  {
+    "name": "empty_statements",
+    "description": "Avoid empty statements."
+  },
+  {
+    "name": "hash_and_equals",
+    "description": "Always override `hashCode` if overriding `==`."
+  },
+  {
+    "name": "implicit_reopen",
+    "description": "Don't implicitly reopen classes."
+  },
+  {
+    "name": "invalid_case_patterns",
+    "description": "Use case expressions that are valid in Dart 3.0."
+  },
+  {
+    "name": "invariant_booleans",
+    "description": "Conditions should not unconditionally evaluate to `true` or to `false`."
+  },
+  {
+    "name": "iterable_contains_unrelated_type",
+    "description": "Invocation of Iterable<E>.contains with references of unrelated types."
+  },
+  {
+    "name": "list_remove_unrelated_type",
+    "description": "Invocation of `remove` with references of unrelated types."
+  },
+  {
+    "name": "literal_only_boolean_expressions",
+    "description": "Boolean expression composed only with literals."
+  },
+  {
+    "name": "no_adjacent_strings_in_list",
+    "description": "Don't use adjacent strings in list."
+  },
+  {
+    "name": "no_duplicate_case_values",
+    "description": "Don't use more than one case with same value."
+  },
+  {
+    "name": "no_logic_in_create_state",
+    "description": "Don't put any logic in createState."
+  },
+  {
+    "name": "no_self_assignments",
+    "description": "Don't assign a variable to itself."
+  },
+  {
+    "name": "no_wildcard_variable_uses",
+    "description": "Don't use wildcard parameters or variables."
+  },
+  {
+    "name": "prefer_relative_imports",
+    "description": "Prefer relative imports for files in `lib/`."
+  },
+  {
+    "name": "prefer_void_to_null",
+    "description": "Don't use the Null type, unless you are positive that you don't want void."
+  },
+  {
+    "name": "test_types_in_equals",
+    "description": "Test type arguments in operator ==(Object other)."
+  },
+  {
+    "name": "throw_in_finally",
+    "description": "Avoid `throw` in finally block."
+  },
+  {
+    "name": "unnecessary_statements",
+    "description": "Avoid using unnecessary statements."
+  },
+  {
+    "name": "unrelated_type_equality_checks",
+    "description": "Equality operator `==` invocation with references of unrelated types."
+  },
+  {
+    "name": "unsafe_html",
+    "description": "Avoid unsafe HTML APIs."
+  },
+  {
+    "name": "use_build_context_synchronously",
+    "description": "Do not use BuildContexts across async gaps."
+  },
+  {
+    "name": "use_key_in_widget_constructors",
+    "description": "Use key in widget constructors."
+  },
+  {
+    "name": "valid_regexps",
+    "description": "Use valid regular expression syntax."
+  },
+  {
+    "name": "depend_on_referenced_packages",
+    "description": "Depend on referenced packages."
+  },
+  {
+    "name": "package_names",
+    "description": "Use `lowercase_with_underscores` for package names."
+  },
+  {
+    "name": "secure_pubspec_urls",
+    "description": "Use secure urls in `pubspec.yaml`."
+  },
+  {
+    "name": "sort_pub_dependencies",
+    "description": "Sort pub dependencies alphabetically."
+  },
+  {
+    "name": "always_declare_return_types",
+    "description": "Declare method return types."
+  },
+  {
+    "name": "always_put_control_body_on_new_line",
+    "description": "Separate the control structure expression from its statement."
+  },
+  {
+    "name": "always_put_required_named_parameters_first",
+    "description": "Put required named parameters first."
+  },
+  {
+    "name": "always_require_non_null_named_parameters",
+    "description": "Specify `@required` on named parameters without defaults."
+  },
+  {
+    "name": "always_specify_types",
+    "description": "Specify type annotations."
+  },
+  {
+    "name": "annotate_overrides",
+    "description": "Annotate overridden members."
+  },
+  {
+    "name": "avoid_annotating_with_dynamic",
+    "description": "Avoid annotating with dynamic when not required."
+  },
+  {
+    "name": "avoid_as",
+    "description": "Avoid using `as`."
+  },
+  {
+    "name": "avoid_bool_literals_in_conditional_expressions",
+    "description": "Avoid bool literals in conditional expressions."
+  },
+  {
+    "name": "avoid_catches_without_on_clauses",
+    "description": "Avoid catches without on clauses."
+  },
+  {
+    "name": "avoid_catching_errors",
+    "description": "Don't explicitly catch Error or types that implement it."
+  },
+  {
+    "name": "avoid_classes_with_only_static_members",
+    "description": "Avoid defining a class that contains only static members."
+  },
+  {
+    "name": "avoid_double_and_int_checks",
+    "description": "Avoid double and int checks."
+  },
+  {
+    "name": "avoid_equals_and_hash_code_on_mutable_classes",
+    "description": "Avoid overloading operator == and hashCode on classes not marked `@immutable`."
+  },
+  {
+    "name": "avoid_escaping_inner_quotes",
+    "description": "Avoid escaping inner quotes by converting surrounding quotes."
+  },
+  {
+    "name": "avoid_field_initializers_in_const_classes",
+    "description": "Avoid field initializers in const classes."
+  },
+  {
+    "name": "avoid_final_parameters",
+    "description": "Avoid final for parameter declarations."
+  },
+  {
+    "name": "avoid_function_literals_in_foreach_calls",
+    "description": "Avoid using `forEach` with a function literal."
+  },
+  {
+    "name": "avoid_implementing_value_types",
+    "description": "Don't implement classes that override `==`."
+  },
+  {
+    "name": "avoid_init_to_null",
+    "description": "Don't explicitly initialize variables to null."
+  },
+  {
+    "name": "avoid_js_rounded_ints",
+    "description": "Avoid JavaScript rounded ints."
+  },
+  {
+    "name": "avoid_multiple_declarations_per_line",
+    "description": "Don't declare multiple variables on a single line."
+  },
+  {
+    "name": "avoid_null_checks_in_equality_operators",
+    "description": "Don't check for null in custom == operators."
+  },
+  {
+    "name": "avoid_positional_boolean_parameters",
+    "description": "Avoid positional boolean parameters."
+  },
+  {
+    "name": "avoid_private_typedef_functions",
+    "description": "Avoid private typedef functions."
+  },
+  {
+    "name": "avoid_redundant_argument_values",
+    "description": "Avoid redundant argument values."
+  },
+  {
+    "name": "avoid_renaming_method_parameters",
+    "description": "Don't rename parameters of overridden methods."
+  },
+  {
+    "name": "avoid_return_types_on_setters",
+    "description": "Avoid return types on setters."
+  },
+  {
+    "name": "avoid_returning_null",
+    "description": "Avoid returning null from members whose return type is bool, double, int, or num."
+  },
+  {
+    "name": "avoid_returning_null_for_void",
+    "description": "Avoid returning null for void."
+  },
+  {
+    "name": "avoid_returning_this",
+    "description": "Avoid returning this from methods just to enable a fluent interface."
+  },
+  {
+    "name": "avoid_setters_without_getters",
+    "description": "Avoid setters without getters."
+  },
+  {
+    "name": "avoid_shadowing_type_parameters",
+    "description": "Avoid shadowing type parameters."
+  },
+  {
+    "name": "avoid_single_cascade_in_expression_statements",
+    "description": "Avoid single cascade in expression statements."
+  },
+  {
+    "name": "avoid_types_on_closure_parameters",
+    "description": "Avoid annotating types for function expression parameters."
+  },
+  {
+    "name": "avoid_unnecessary_containers",
+    "description": "Avoid unnecessary containers."
+  },
+  {
+    "name": "avoid_unused_constructor_parameters",
+    "description": "Avoid defining unused parameters in constructors."
+  },
+  {
+    "name": "avoid_void_async",
+    "description": "Avoid async functions that return void."
+  },
+  {
+    "name": "await_only_futures",
+    "description": "Await only futures."
+  },
+  {
+    "name": "camel_case_extensions",
+    "description": "Name extensions using UpperCamelCase."
+  },
+  {
+    "name": "camel_case_types",
+    "description": "Name types using UpperCamelCase."
+  },
+  {
+    "name": "cascade_invocations",
+    "description": "Cascade consecutive method invocations on the same reference."
+  },
+  {
+    "name": "cast_nullable_to_non_nullable",
+    "description": "Don't cast a nullable value to a non nullable type."
+  },
+  {
+    "name": "combinators_ordering",
+    "description": "Sort combinator names alphabetically."
+  },
+  {
+    "name": "conditional_uri_does_not_exist",
+    "description": "Missing conditional import."
+  },
+  {
+    "name": "constant_identifier_names",
+    "description": "Prefer using lowerCamelCase for constant names."
+  },
+  {
+    "name": "curly_braces_in_flow_control_structures",
+    "description": "DO use curly braces for all flow control structures."
+  },
+  {
+    "name": "dangling_library_doc_comments",
+    "description": "Attach library doc comments to library directives."
+  },
+  {
+    "name": "deprecated_consistency",
+    "description": "Missing deprecated annotation."
+  },
+  {
+    "name": "directives_ordering",
+    "description": "Adhere to Effective Dart Guide directives sorting conventions."
+  },
+  {
+    "name": "do_not_use_environment",
+    "description": "Do not use environment declared variables."
+  },
+  {
+    "name": "empty_catches",
+    "description": "Avoid empty catch blocks."
+  },
+  {
+    "name": "empty_constructor_bodies",
+    "description": "Use `;` instead of `{}` for empty constructor bodies."
+  },
+  {
+    "name": "enable_null_safety",
+    "description": "Do use sound null safety."
+  },
+  {
+    "name": "eol_at_end_of_file",
+    "description": "Put a single newline at end of file."
+  },
+  {
+    "name": "exhaustive_cases",
+    "description": "Define case clauses for all constants in enum-like classes."
+  },
+  {
+    "name": "file_names",
+    "description": "Name source files using `lowercase_with_underscores`."
+  },
+  {
+    "name": "flutter_style_todos",
+    "description": "Use Flutter TODO format: // TODO(username): message, https://URL-to-issue."
+  },
+  {
+    "name": "implementation_imports",
+    "description": "Don't import implementation files from another package."
+  },
+  {
+    "name": "implicit_call_tearoffs",
+    "description": "Explicitly tear-off `call` methods when using an object as a Function."
+  },
+  {
+    "name": "join_return_with_assignment",
+    "description": "Join return statement with assignment when possible."
+  },
+  {
+    "name": "leading_newlines_in_multiline_strings",
+    "description": "Start multiline strings with a newline."
+  },
+  {
+    "name": "library_annotations",
+    "description": "Attach library annotations to library directives."
+  },
+  {
+    "name": "library_names",
+    "description": "Name libraries using `lowercase_with_underscores`."
+  },
+  {
+    "name": "library_prefixes",
+    "description": "Use `lowercase_with_underscores` when specifying a library prefix."
+  },
+  {
+    "name": "library_private_types_in_public_api",
+    "description": "Avoid using private types in public APIs."
+  },
+  {
+    "name": "lines_longer_than_80_chars",
+    "description": "Avoid lines longer than 80 characters."
+  },
+  {
+    "name": "matching_super_parameters",
+    "description": "Use matching super parameter names."
+  },
+  {
+    "name": "missing_whitespace_between_adjacent_strings",
+    "description": "Missing whitespace between adjacent strings."
+  },
+  {
+    "name": "no_default_cases",
+    "description": "No default cases."
+  },
+  {
+    "name": "no_leading_underscores_for_library_prefixes",
+    "description": "Avoid leading underscores for library prefixes."
+  },
+  {
+    "name": "no_leading_underscores_for_local_identifiers",
+    "description": "Avoid leading underscores for local identifiers."
+  },
+  {
+    "name": "no_literal_bool_comparisons",
+    "description": "Don't compare booleans to boolean literals."
+  },
+  {
+    "name": "no_runtimeType_toString",
+    "description": "Avoid calling toString() on runtimeType."
+  },
+  {
+    "name": "non_constant_identifier_names",
+    "description": "Name non-constant identifiers using lowerCamelCase."
+  },
+  {
+    "name": "noop_primitive_operations",
+    "description": "Noop primitive operations."
+  },
+  {
+    "name": "null_check_on_nullable_type_parameter",
+    "description": "Don't use null check on a potentially nullable type parameter."
+  },
+  {
+    "name": "null_closures",
+    "description": "Do not pass `null` as an argument where a closure is expected."
+  },
+  {
+    "name": "omit_local_variable_types",
+    "description": "Omit type annotations for local variables."
+  },
+  {
+    "name": "one_member_abstracts",
+    "description": "Avoid defining a one-member abstract class when a simple function will do."
+  },
+  {
+    "name": "only_throw_errors",
+    "description": "Only throw instances of classes extending either Exception or Error."
+  },
+  {
+    "name": "overridden_fields",
+    "description": "Don't override fields."
+  },
+  {
+    "name": "package_api_docs",
+    "description": "Provide doc comments for all public APIs."
+  },
+  {
+    "name": "package_prefixed_library_names",
+    "description": "Prefix library names with the package name and a dot-separated path."
+  },
+  {
+    "name": "parameter_assignments",
+    "description": "Don't reassign references to parameters of functions or methods."
+  },
+  {
+    "name": "prefer_adjacent_string_concatenation",
+    "description": "Use adjacent strings to concatenate string literals."
+  },
+  {
+    "name": "prefer_asserts_in_initializer_lists",
+    "description": "Prefer putting asserts in initializer lists."
+  },
+  {
+    "name": "prefer_asserts_with_message",
+    "description": "Prefer asserts with message."
+  },
+  {
+    "name": "prefer_bool_in_asserts",
+    "description": "Prefer using a boolean as the assert condition."
+  },
+  {
+    "name": "prefer_collection_literals",
+    "description": "Use collection literals when possible."
+  },
+  {
+    "name": "prefer_conditional_assignment",
+    "description": "Prefer using `??=` over testing for null."
+  },
+  {
+    "name": "prefer_const_constructors",
+    "description": "Prefer const with constant constructors."
+  },
+  {
+    "name": "prefer_const_constructors_in_immutables",
+    "description": "Prefer declaring const constructors on `@immutable` classes."
+  },
+  {
+    "name": "prefer_const_declarations",
+    "description": "Prefer const over final for declarations."
+  },
+  {
+    "name": "prefer_const_literals_to_create_immutables",
+    "description": "Prefer const literals as parameters of constructors on @immutable classes."
+  },
+  {
+    "name": "prefer_constructors_over_static_methods",
+    "description": "Prefer defining constructors instead of static methods to create instances."
+  },
+  {
+    "name": "prefer_contains",
+    "description": "Use contains for `List` and `String` instances."
+  },
+  {
+    "name": "prefer_double_quotes",
+    "description": "Prefer double quotes where they won't require escape sequences."
+  },
+  {
+    "name": "prefer_equal_for_default_values",
+    "description": "Use `=` to separate a named parameter from its default value."
+  },
+  {
+    "name": "prefer_expression_function_bodies",
+    "description": "Use => for short members whose body is a single return statement."
+  },
+  {
+    "name": "prefer_final_fields",
+    "description": "Private field could be final."
+  },
+  {
+    "name": "prefer_final_in_for_each",
+    "description": "Prefer final in for-each loop variable if reference is not reassigned."
+  },
+  {
+    "name": "prefer_final_locals",
+    "description": "Prefer final for variable declarations if they are not reassigned."
+  },
+  {
+    "name": "prefer_final_parameters",
+    "description": "Prefer final for parameter declarations if they are not reassigned."
+  },
+  {
+    "name": "prefer_for_elements_to_map_fromIterable",
+    "description": "Prefer 'for' elements when building maps from iterables."
+  },
+  {
+    "name": "prefer_foreach",
+    "description": "Use `forEach` to only apply a function to all the elements."
+  },
+  {
+    "name": "prefer_function_declarations_over_variables",
+    "description": "Use a function declaration to bind a function to a name."
+  },
+  {
+    "name": "prefer_generic_function_type_aliases",
+    "description": "Prefer generic function type aliases."
+  },
+  {
+    "name": "prefer_if_elements_to_conditional_expressions",
+    "description": "Prefer if elements to conditional expressions where possible."
+  },
+  {
+    "name": "prefer_if_null_operators",
+    "description": "Prefer using if null operators."
+  },
+  {
+    "name": "prefer_initializing_formals",
+    "description": "Use initializing formals when possible."
+  },
+  {
+    "name": "prefer_inlined_adds",
+    "description": "Inline list item declarations where possible."
+  },
+  {
+    "name": "prefer_int_literals",
+    "description": "Prefer int literals over double literals."
+  },
+  {
+    "name": "prefer_interpolation_to_compose_strings",
+    "description": "Use interpolation to compose strings and values."
+  },
+  {
+    "name": "prefer_is_empty",
+    "description": "Use `isEmpty` for Iterables and Maps."
+  },
+  {
+    "name": "prefer_is_not_empty",
+    "description": "Use `isNotEmpty` for Iterables and Maps."
+  },
+  {
+    "name": "prefer_is_not_operator",
+    "description": "Prefer is! operator."
+  },
+  {
+    "name": "prefer_iterable_whereType",
+    "description": "Prefer to use whereType on iterable."
+  },
+  {
+    "name": "prefer_mixin",
+    "description": "Prefer using mixins."
+  },
+  {
+    "name": "prefer_null_aware_method_calls",
+    "description": "Prefer null aware method calls."
+  },
+  {
+    "name": "prefer_null_aware_operators",
+    "description": "Prefer using null aware operators."
+  },
+  {
+    "name": "prefer_single_quotes",
+    "description": "Only use double quotes for strings containing single quotes."
+  },
+  {
+    "name": "prefer_spread_collections",
+    "description": "Use spread collections when possible."
+  },
+  {
+    "name": "prefer_typing_uninitialized_variables",
+    "description": "Prefer typing uninitialized variables and fields."
+  },
+  {
+    "name": "provide_deprecation_message",
+    "description": "Provide a deprecation message, via @Deprecated(\"message\")."
+  },
+  {
+    "name": "public_member_api_docs",
+    "description": "Document all public members."
+  },
+  {
+    "name": "recursive_getters",
+    "description": "Property getter recursively returns itself."
+  },
+  {
+    "name": "require_trailing_commas",
+    "description": "Use trailing commas for all function calls and declarations."
+  },
+  {
+    "name": "sized_box_for_whitespace",
+    "description": "SizedBox for whitespace."
+  },
+  {
+    "name": "sized_box_shrink_expand",
+    "description": "Use SizedBox shrink and expand named constructors."
+  },
+  {
+    "name": "slash_for_doc_comments",
+    "description": "Prefer using /// for doc comments."
+  },
+  {
+    "name": "sort_child_properties_last",
+    "description": "Sort child properties last in widget instance creations."
+  },
+  {
+    "name": "sort_constructors_first",
+    "description": "Sort constructor declarations before other members."
+  },
+  {
+    "name": "sort_unnamed_constructors_first",
+    "description": "Sort unnamed constructor declarations first."
+  },
+  {
+    "name": "super_goes_last",
+    "description": "Place the `super` call last in a constructor initialization list."
+  },
+  {
+    "name": "tighten_type_of_initializing_formals",
+    "description": "Tighten type of initializing formal."
+  },
+  {
+    "name": "type_annotate_public_apis",
+    "description": "Type annotate public APIs."
+  },
+  {
+    "name": "type_init_formals",
+    "description": "Don't type annotate initializing formals."
+  },
+  {
+    "name": "type_literal_in_constant_pattern",
+    "description": "Don't use constant patterns with type literals."
+  },
+  {
+    "name": "unawaited_futures",
+    "description": "`Future` results in `async` function bodies must be `await`ed or marked `unawaited` using `dart:async`."
+  },
+  {
+    "name": "unnecessary_await_in_return",
+    "description": "Unnecessary await keyword in return."
+  },
+  {
+    "name": "unnecessary_brace_in_string_interps",
+    "description": "Avoid using braces in interpolation when not needed."
+  },
+  {
+    "name": "unnecessary_breaks",
+    "description": "Don't use explicit `break`s when a break is implied."
+  },
+  {
+    "name": "unnecessary_const",
+    "description": "Avoid const keyword."
+  },
+  {
+    "name": "unnecessary_constructor_name",
+    "description": "Unnecessary `.new` constructor name."
+  },
+  {
+    "name": "unnecessary_final",
+    "description": "Don't use `final` for local variables."
+  },
+  {
+    "name": "unnecessary_getters_setters",
+    "description": "Avoid wrapping fields in getters and setters just to be \"safe\"."
+  },
+  {
+    "name": "unnecessary_lambdas",
+    "description": "Don't create a lambda when a tear-off will do."
+  },
+  {
+    "name": "unnecessary_late",
+    "description": "Don't specify the `late` modifier when it is not needed."
+  },
+  {
+    "name": "unnecessary_library_directive",
+    "description": "Avoid library directives unless they have documentation comments or annotations."
+  },
+  {
+    "name": "unnecessary_new",
+    "description": "Unnecessary new keyword."
+  },
+  {
+    "name": "unnecessary_null_aware_assignments",
+    "description": "Avoid null in null-aware assignment."
+  },
+  {
+    "name": "unnecessary_null_aware_operator_on_extension_on_nullable",
+    "description": "Unnecessary null aware operator on extension on a nullable type."
+  },
+  {
+    "name": "unnecessary_null_checks",
+    "description": "Unnecessary null checks."
+  },
+  {
+    "name": "unnecessary_null_in_if_null_operators",
+    "description": "Avoid using `null` in `if null` operators."
+  },
+  {
+    "name": "unnecessary_nullable_for_final_variable_declarations",
+    "description": "Use a non-nullable type for a final variable initialized with a non-nullable value."
+  },
+  {
+    "name": "unnecessary_overrides",
+    "description": "Don't override a method to do a super method invocation with the same parameters."
+  },
+  {
+    "name": "unnecessary_parenthesis",
+    "description": "Unnecessary parentheses can be removed."
+  },
+  {
+    "name": "unnecessary_raw_strings",
+    "description": "Unnecessary raw string."
+  },
+  {
+    "name": "unnecessary_string_escapes",
+    "description": "Remove unnecessary backslashes in strings."
+  },
+  {
+    "name": "unnecessary_string_interpolations",
+    "description": "Unnecessary string interpolation."
+  },
+  {
+    "name": "unnecessary_this",
+    "description": "Don't access members with `this` unless avoiding shadowing."
+  },
+  {
+    "name": "unnecessary_to_list_in_spreads",
+    "description": "Unnecessary toList() in spreads."
+  },
+  {
+    "name": "unreachable_from_main",
+    "description": "Unreachable top-level members in executable libraries."
+  },
+  {
+    "name": "use_colored_box",
+    "description": "Use `ColoredBox`."
+  },
+  {
+    "name": "use_decorated_box",
+    "description": "Use `DecoratedBox`."
+  },
+  {
+    "name": "use_enums",
+    "description": "Use enums rather than classes that behave like enums."
+  },
+  {
+    "name": "use_full_hex_values_for_flutter_colors",
+    "description": "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color."
+  },
+  {
+    "name": "use_function_type_syntax_for_parameters",
+    "description": "Use generic function type syntax for parameters."
+  },
+  {
+    "name": "use_if_null_to_convert_nulls_to_bools",
+    "description": "Use if-null operators to convert nulls to bools."
+  },
+  {
+    "name": "use_is_even_rather_than_modulo",
+    "description": "Prefer intValue.isOdd/isEven instead of checking the result of % 2."
+  },
+  {
+    "name": "use_late_for_private_fields_and_variables",
+    "description": "Use late for private members with a non-nullable type."
+  },
+  {
+    "name": "use_named_constants",
+    "description": "Use predefined named constants."
+  },
+  {
+    "name": "use_raw_strings",
+    "description": "Use raw string to avoid escapes."
+  },
+  {
+    "name": "use_rethrow_when_possible",
+    "description": "Use rethrow to rethrow a caught exception."
+  },
+  {
+    "name": "use_setters_to_change_properties",
+    "description": "Use a setter for operations that conceptually change a property."
+  },
+  {
+    "name": "use_string_buffers",
+    "description": "Use string buffers to compose strings."
+  },
+  {
+    "name": "use_string_in_part_of_directives",
+    "description": "Use string in part of directives."
+  },
+  {
+    "name": "use_super_parameters",
+    "description": "Use super-initializer parameters where possible."
+  },
+  {
+    "name": "use_test_throws_matchers",
+    "description": "Use throwsA matcher instead of fail()."
+  },
+  {
+    "name": "use_to_and_as_if_applicable",
+    "description": "Start the name of the method with to/_to or as/_as if applicable."
+  },
+  {
+    "name": "void_checks",
+    "description": "Don't assign to void."
+  }
+]
