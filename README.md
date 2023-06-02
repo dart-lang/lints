@@ -109,13 +109,12 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`await_only_futures`](https://dart.dev/lints/await_only_futures) | Await only futures. |
 | [`camel_case_extensions`](https://dart.dev/lints/camel_case_extensions) | Name extensions using UpperCamelCase. |
 | [`camel_case_types`](https://dart.dev/lints/camel_case_types) | Name types using UpperCamelCase. |
+| [`collection_methods_unrelated_type`](https://dart.dev/lints/collection_methods_unrelated_type) | Invocation of various collection methods with arguments of unrelated types. |
 | [`curly_braces_in_flow_control_structures`](https://dart.dev/lints/curly_braces_in_flow_control_structures) | DO use curly braces for all flow control structures. |
 | [`depend_on_referenced_packages`](https://dart.dev/lints/depend_on_referenced_packages) | Depend on referenced packages. |
 | [`empty_catches`](https://dart.dev/lints/empty_catches) | Avoid empty catch blocks. |
 | [`file_names`](https://dart.dev/lints/file_names) | Name source files using `lowercase_with_underscores`. |
 | [`hash_and_equals`](https://dart.dev/lints/hash_and_equals) | Always override `hashCode` if overriding `==`. |
-| [`iterable_contains_unrelated_type`](https://dart.dev/lints/iterable_contains_unrelated_type) | Invocation of Iterable<E>.contains with references of unrelated types. |
-| [`list_remove_unrelated_type`](https://dart.dev/lints/list_remove_unrelated_type) | Invocation of `remove` with references of unrelated types. |
 | [`no_duplicate_case_values`](https://dart.dev/lints/no_duplicate_case_values) | Don't use more than one case with same value. |
 | [`non_constant_identifier_names`](https://dart.dev/lints/non_constant_identifier_names) | Name non-constant identifiers using lowerCamelCase. |
 | [`null_check_on_nullable_type_parameter`](https://dart.dev/lints/null_check_on_nullable_type_parameter) | Don't use null check on a potentially nullable type parameter. |
