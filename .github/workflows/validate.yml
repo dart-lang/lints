@@ -7,27 +7,20 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
   # Run weekly
   schedule:
     - cron: "0 0 * * 0"
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
+      - uses: dart-lang/setup-dart@d6a63dab3335f427404425de0fbfed4686d93c4f
 
-      - name: Check for sources
-        run: |
-          filecount=`find lib -name '*.dart' | wc -l`
-          if [ $filecount -ne 0 ] || [ -d "bin" ]
-          then
-            echo 'Dart sources are not allowed in this package!'
-            exit 1
-          fi
+      - run: dart pub get
+      - run: dart format --output=none --set-exit-if-changed .
+      - run: dart analyze --fatal-infos
+      - run: dart tool/validate_lib.dart
+      - run: dart tool/gen_docs.dart --verify
