@@ -1,7 +1,8 @@
-## 2.1.1-wip
+## 2.1.1
 
 - Added the `analysis` and `lints` topics to the pubspec file.
-- Update the package's readme to include the lint rules that `package:lints/core.yaml` and `package:lints/recommended.yaml` include.
+- Update the package's readme to include the list of lint rules that
+  `package:lints/core.yaml` and `package:lints/recommended.yaml` include.
 
 ## 2.1.0
 

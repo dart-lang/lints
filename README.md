@@ -25,7 +25,17 @@ to pass these lints. The recommended lints include all the core lints.
 
 Additionally, a third lint set -
 [`package:flutter_lints`](https://pub.dev/packages/flutter_lints) - extends the
-recommended set with additional recommended Flutter-specific lints. Documentation on that can be found at [github.com/flutter/packages](https://github.com/flutter/packages/tree/main/packages/flutter_lints).
+recommended set with additional recommended Flutter-specific lints.
+Documentation on that can be found at
+[github.com/flutter/packages](https://github.com/flutter/packages/tree/main/packages/flutter_lints).
+
+The Dart team will likely not provide recommendations past `core` and
+`recommended` sets (e.g., a `strict` rule set). There are many such rule sets in
+the ecosystem however (available at [pub.dev](https://pub.dev/)).
+
+Rule set authors: consider adding the `lints` topic to your pubspec to allow
+easier discovery (e.g.,
+[pub.dev/packages?q=topic:lints](https://pub.dev/packages?q=topic%3Alints)).
 
 ## Where these lints are used
 
@@ -37,7 +47,8 @@ When uploading a package to the [pub.dev] package repository, packages are
 
 ## Enabling the lints
 
-For new apps created with `dart create` the recommended set of lints are enabled by default.
+For new apps created with `dart create` the `recommended` set of lints are enabled
+by default.
 
 For existing apps or packages, you can enable these lints via:
 
@@ -69,12 +80,12 @@ lint sets, see [customizing static analysis].
 
 The Dart language changes and the ecosystem continues to develop new best 
 practices, so the lint sets must be periodically updated to reflect the best way
-we know to write Dart code. The informal process we use is:
+we know to write Dart code. The process we use is:
 
-1.  Anyone can file an [issue] to discuss a potential change to a lint set. (A
-    change here means adding or removing a lint from one or both sets. If you
-    want to discuss implementing an entirely new lint, the place to suggest that
-    is at the [linter repo].) Feedback is welcome from any Dart user.
+1.  Anyone can file an [issue] to discuss a potential change to a lint set
+    (i.e., adding or removing a lint from one or both sets; if you're proposing
+    an entirely new lint, the place to suggest that is at the [linter repo]).
+    Feedback is welcome from any Dart user.
 
 2.  Periodically, a group of Dart and Flutter team members meet to review the
     suggestions and decide what to adopt.
