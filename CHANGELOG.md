@@ -1,4 +1,4 @@
-## 2.2.0-wip
+## 2.1.1-dev
 
 - Added the `analysis` and `lints` topics to the pubspec file.
 - Added `collection_methods_unrelated_type` to core (available since 2.19).
@@ -7,7 +7,7 @@
 
 ## 2.1.0
 
-- Updated SDK lower-bound to 3.0.
+- Updated SDK lower-bound to 3.0
 - Removed `always_require_non_null_named_parameters` from `recommended.yaml`
   as it is only relevant in Dart pre 2.12 and with Dart 3.0, libraries can
   no longer be opted back that far.
