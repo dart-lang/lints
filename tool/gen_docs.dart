@@ -61,7 +61,7 @@ void main(List<String> args) async {
     }
   } else {
     // Re-save rules.json.
-    const retainKeys = {'name', 'description'};
+    const retainKeys = {'name', 'description', 'fixStatus'};
     for (var rule in rulesJson) {
       rule.removeWhere((key, value) => !retainKeys.contains(key));
     }
@@ -84,23 +84,23 @@ String _createRuleTable(
   rules.sort();
 
   final lines = [
-    '| Lint Rules | Description |',
-    '| :--------- | :---------- |',
+    '| Lint Rules | Description | Fix |',
+    '| :--------- | :---------- | --- |',
     ...rules.map((rule) {
       final ruleMeta =
           lintMeta.firstWhereOrNull((meta) => meta['name'] == rule);
 
       if (ruleMeta == null) {
         print('rules.json data for rule \'$rule\' not found.');
-        print(
-          'Update lib/rules.json from '
-          'https://github.com/dart-lang/linter/blob/gh-pages/lints/machine/rules.json.',
-        );
+        print('Update lib/rules.json from '
+            'https://dart-lang.github.io/linter/lints/machine/rules.json.');
         exit(1);
       }
       final description = ruleMeta['description'] as String?;
+      final hasFix = ruleMeta['fixStatus'] == 'hasFix';
+      final fixDesc = hasFix ? '✅' : '';
 
-      return '| [`$rule`](https://dart.dev/lints/$rule) | $description |';
+      return '| [`$rule`](https://dart.dev/lints/$rule) | $description | $fixDesc |';
     }),
   ];
 

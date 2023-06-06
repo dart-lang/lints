@@ -1,910 +1,1137 @@
 [
   {
     "name": "always_use_package_imports",
-    "description": "Avoid relative imports for files in `lib/`."
+    "description": "Avoid relative imports for files in `lib/`.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_dynamic_calls",
-    "description": "Avoid method calls or property accesses on a \"dynamic\" target."
+    "description": "Avoid method calls or property accesses on a \"dynamic\" target.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_empty_else",
-    "description": "Avoid empty else statements."
+    "description": "Avoid empty else statements.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_print",
-    "description": "Avoid `print` calls in production code."
+    "description": "Avoid `print` calls in production code.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_relative_lib_imports",
-    "description": "Avoid relative imports for files in `lib/`."
+    "description": "Avoid relative imports for files in `lib/`.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_returning_null_for_future",
-    "description": "Avoid returning null for Future."
+    "description": "Avoid returning null for Future.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_slow_async_io",
-    "description": "Avoid slow async `dart:io` methods."
+    "description": "Avoid slow async `dart:io` methods.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "avoid_type_to_string",
-    "description": "Avoid <Type>.toString() in production code since results may be minified."
+    "description": "Avoid <Type>.toString() in production code since results may be minified.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_types_as_parameter_names",
-    "description": "Avoid types as parameter names."
+    "description": "Avoid types as parameter names.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_web_libraries_in_flutter",
-    "description": "Avoid using web-only libraries outside Flutter web plugin packages."
+    "description": "Avoid using web-only libraries outside Flutter web plugin packages.",
+    "fixStatus": "noFix"
   },
   {
     "name": "cancel_subscriptions",
-    "description": "Cancel instances of dart.async.StreamSubscription."
+    "description": "Cancel instances of dart.async.StreamSubscription.",
+    "fixStatus": "noFix"
   },
   {
     "name": "close_sinks",
-    "description": "Close instances of `dart.core.Sink`."
+    "description": "Close instances of `dart.core.Sink`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "collection_methods_unrelated_type",
-    "description": "Invocation of various collection methods with arguments of unrelated types."
+    "description": "Invocation of various collection methods with arguments of unrelated types.",
+    "fixStatus": "noFix"
   },
   {
     "name": "comment_references",
-    "description": "Only reference in scope identifiers in doc comments."
+    "description": "Only reference in scope identifiers in doc comments.",
+    "fixStatus": "noFix"
   },
   {
     "name": "control_flow_in_finally",
-    "description": "Avoid control flow in finally blocks."
+    "description": "Avoid control flow in finally blocks.",
+    "fixStatus": "noFix"
   },
   {
     "name": "deprecated_member_use_from_same_package",
-    "description": "Avoid using deprecated elements from within the package in which they are declared."
+    "description": "Avoid using deprecated elements from within the package in which they are declared.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "diagnostic_describe_all_properties",
-    "description": "DO reference all public properties in debug methods."
+    "description": "DO reference all public properties in debug methods.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "discarded_futures",
-    "description": "Don't invoke asynchronous functions in non-async blocks."
+    "description": "Don't invoke asynchronous functions in non-async blocks.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "empty_statements",
-    "description": "Avoid empty statements."
+    "description": "Avoid empty statements.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "hash_and_equals",
-    "description": "Always override `hashCode` if overriding `==`."
+    "description": "Always override `hashCode` if overriding `==`.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "implicit_reopen",
-    "description": "Don't implicitly reopen classes."
+    "description": "Don't implicitly reopen classes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "invalid_case_patterns",
-    "description": "Use case expressions that are valid in Dart 3.0."
+    "description": "Use case expressions that are valid in Dart 3.0.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "invariant_booleans",
-    "description": "Conditions should not unconditionally evaluate to `true` or to `false`."
+    "description": "Conditions should not unconditionally evaluate to `true` or to `false`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "iterable_contains_unrelated_type",
-    "description": "Invocation of Iterable<E>.contains with references of unrelated types."
+    "description": "Invocation of Iterable<E>.contains with references of unrelated types.",
+    "fixStatus": "noFix"
   },
   {
     "name": "list_remove_unrelated_type",
-    "description": "Invocation of `remove` with references of unrelated types."
+    "description": "Invocation of `remove` with references of unrelated types.",
+    "fixStatus": "noFix"
   },
   {
     "name": "literal_only_boolean_expressions",
-    "description": "Boolean expression composed only with literals."
+    "description": "Boolean expression composed only with literals.",
+    "fixStatus": "noFix"
   },
   {
     "name": "no_adjacent_strings_in_list",
-    "description": "Don't use adjacent strings in list."
+    "description": "Don't use adjacent strings in list.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "no_duplicate_case_values",
-    "description": "Don't use more than one case with same value."
+    "description": "Don't use more than one case with same value.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "no_logic_in_create_state",
-    "description": "Don't put any logic in createState."
+    "description": "Don't put any logic in createState.",
+    "fixStatus": "noFix"
   },
   {
     "name": "no_self_assignments",
-    "description": "Don't assign a variable to itself."
+    "description": "Don't assign a variable to itself.",
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "no_wildcard_variable_uses",
-    "description": "Don't use wildcard parameters or variables."
+    "description": "Don't use wildcard parameters or variables.",
+    "fixStatus": "unregistered"
   },
   {
     "name": "prefer_relative_imports",
-    "description": "Prefer relative imports for files in `lib/`."
+    "description": "Prefer relative imports for files in `lib/`.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_void_to_null",
-    "description": "Don't use the Null type, unless you are positive that you don't want void."
+    "description": "Don't use the Null type, unless you are positive that you don't want void.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "test_types_in_equals",
-    "description": "Test type arguments in operator ==(Object other)."
+    "description": "Test type arguments in operator ==(Object other).",
+    "fixStatus": "noFix"
   },
   {
     "name": "throw_in_finally",
-    "description": "Avoid `throw` in finally block."
+    "description": "Avoid `throw` in finally block.",
+    "fixStatus": "noFix"
   },
   {
     "name": "unnecessary_statements",
-    "description": "Avoid using unnecessary statements."
+    "description": "Avoid using unnecessary statements.",
+    "fixStatus": "noFix"
   },
   {
     "name": "unrelated_type_equality_checks",
-    "description": "Equality operator `==` invocation with references of unrelated types."
+    "description": "Equality operator `==` invocation with references of unrelated types.",
+    "fixStatus": "noFix"
   },
   {
     "name": "unsafe_html",
-    "description": "Avoid unsafe HTML APIs."
+    "description": "Avoid unsafe HTML APIs.",
+    "fixStatus": "unregistered"
   },
   {
     "name": "use_build_context_synchronously",
-    "description": "Do not use BuildContexts across async gaps."
+    "description": "Do not use BuildContexts across async gaps.",
+    "fixStatus": "noFix"
   },
   {
     "name": "use_key_in_widget_constructors",
-    "description": "Use key in widget constructors."
+    "description": "Use key in widget constructors.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "valid_regexps",
-    "description": "Use valid regular expression syntax."
+    "description": "Use valid regular expression syntax.",
+    "fixStatus": "noFix"
   },
   {
     "name": "depend_on_referenced_packages",
-    "description": "Depend on referenced packages."
+    "description": "Depend on referenced packages.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "package_names",
-    "description": "Use `lowercase_with_underscores` for package names."
+    "description": "Use `lowercase_with_underscores` for package names.",
+    "fixStatus": "noFix"
   },
   {
     "name": "secure_pubspec_urls",
-    "description": "Use secure urls in `pubspec.yaml`."
+    "description": "Use secure urls in `pubspec.yaml`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "sort_pub_dependencies",
-    "description": "Sort pub dependencies alphabetically."
+    "description": "Sort pub dependencies alphabetically.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "always_declare_return_types",
-    "description": "Declare method return types."
+    "description": "Declare method return types.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "always_put_control_body_on_new_line",
-    "description": "Separate the control structure expression from its statement."
+    "description": "Separate the control structure expression from its statement.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "always_put_required_named_parameters_first",
-    "description": "Put required named parameters first."
+    "description": "Put required named parameters first.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "always_require_non_null_named_parameters",
-    "description": "Specify `@required` on named parameters without defaults."
+    "description": "Specify `@required` on named parameters without defaults.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "always_specify_types",
-    "description": "Specify type annotations."
+    "description": "Specify type annotations.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "annotate_overrides",
-    "description": "Annotate overridden members."
+    "description": "Annotate overridden members.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_annotating_with_dynamic",
-    "description": "Avoid annotating with dynamic when not required."
+    "description": "Avoid annotating with dynamic when not required.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_as",
-    "description": "Avoid using `as`."
+    "description": "Avoid using `as`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_bool_literals_in_conditional_expressions",
-    "description": "Avoid bool literals in conditional expressions."
+    "description": "Avoid bool literals in conditional expressions.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "avoid_catches_without_on_clauses",
-    "description": "Avoid catches without on clauses."
+    "description": "Avoid catches without on clauses.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_catching_errors",
-    "description": "Don't explicitly catch Error or types that implement it."
+    "description": "Don't explicitly catch Error or types that implement it.",
+    "fixStatus": "unregistered"
   },
   {
     "name": "avoid_classes_with_only_static_members",
-    "description": "Avoid defining a class that contains only static members."
+    "description": "Avoid defining a class that contains only static members.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_double_and_int_checks",
-    "description": "Avoid double and int checks."
+    "description": "Avoid double and int checks.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "avoid_equals_and_hash_code_on_mutable_classes",
-    "description": "Avoid overloading operator == and hashCode on classes not marked `@immutable`."
+    "description": "Avoid overloading operator == and hashCode on classes not marked `@immutable`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_escaping_inner_quotes",
-    "description": "Avoid escaping inner quotes by converting surrounding quotes."
+    "description": "Avoid escaping inner quotes by converting surrounding quotes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_field_initializers_in_const_classes",
-    "description": "Avoid field initializers in const classes."
+    "description": "Avoid field initializers in const classes.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_final_parameters",
-    "description": "Avoid final for parameter declarations."
+    "description": "Avoid final for parameter declarations.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "avoid_function_literals_in_foreach_calls",
-    "description": "Avoid using `forEach` with a function literal."
+    "description": "Avoid using `forEach` with a function literal.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_implementing_value_types",
-    "description": "Don't implement classes that override `==`."
+    "description": "Don't implement classes that override `==`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_init_to_null",
-    "description": "Don't explicitly initialize variables to null."
+    "description": "Don't explicitly initialize variables to null.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_js_rounded_ints",
-    "description": "Avoid JavaScript rounded ints."
+    "description": "Avoid JavaScript rounded ints.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_multiple_declarations_per_line",
-    "description": "Don't declare multiple variables on a single line."
+    "description": "Don't declare multiple variables on a single line.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_null_checks_in_equality_operators",
-    "description": "Don't check for null in custom == operators."
+    "description": "Don't check for null in custom == operators.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_positional_boolean_parameters",
-    "description": "Avoid positional boolean parameters."
+    "description": "Avoid positional boolean parameters.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_private_typedef_functions",
-    "description": "Avoid private typedef functions."
+    "description": "Avoid private typedef functions.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_redundant_argument_values",
-    "description": "Avoid redundant argument values."
+    "description": "Avoid redundant argument values.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_renaming_method_parameters",
-    "description": "Don't rename parameters of overridden methods."
+    "description": "Don't rename parameters of overridden methods.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_return_types_on_setters",
-    "description": "Avoid return types on setters."
+    "description": "Avoid return types on setters.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_returning_null",
-    "description": "Avoid returning null from members whose return type is bool, double, int, or num."
+    "description": "Avoid returning null from members whose return type is bool, double, int, or num.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_returning_null_for_void",
-    "description": "Avoid returning null for void."
+    "description": "Avoid returning null for void.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_returning_this",
-    "description": "Avoid returning this from methods just to enable a fluent interface."
+    "description": "Avoid returning this from methods just to enable a fluent interface.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_setters_without_getters",
-    "description": "Avoid setters without getters."
+    "description": "Avoid setters without getters.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "avoid_shadowing_type_parameters",
-    "description": "Avoid shadowing type parameters."
+    "description": "Avoid shadowing type parameters.",
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_single_cascade_in_expression_statements",
-    "description": "Avoid single cascade in expression statements."
+    "description": "Avoid single cascade in expression statements.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_types_on_closure_parameters",
-    "description": "Avoid annotating types for function expression parameters."
+    "description": "Avoid annotating types for function expression parameters.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_unnecessary_containers",
-    "description": "Avoid unnecessary containers."
+    "description": "Avoid unnecessary containers.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_unused_constructor_parameters",
-    "description": "Avoid defining unused parameters in constructors."
+    "description": "Avoid defining unused parameters in constructors.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_void_async",
-    "description": "Avoid async functions that return void."
+    "description": "Avoid async functions that return void.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "await_only_futures",
-    "description": "Await only futures."
+    "description": "Await only futures.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "camel_case_extensions",
-    "description": "Name extensions using UpperCamelCase."
+    "description": "Name extensions using UpperCamelCase.",
+    "fixStatus": "noFix"
   },
   {
     "name": "camel_case_types",
-    "description": "Name types using UpperCamelCase."
+    "description": "Name types using UpperCamelCase.",
+    "fixStatus": "noFix"
   },
   {
     "name": "cascade_invocations",
-    "description": "Cascade consecutive method invocations on the same reference."
+    "description": "Cascade consecutive method invocations on the same reference.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "cast_nullable_to_non_nullable",
-    "description": "Don't cast a nullable value to a non nullable type."
+    "description": "Don't cast a nullable value to a non nullable type.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "combinators_ordering",
-    "description": "Sort combinator names alphabetically."
+    "description": "Sort combinator names alphabetically.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "conditional_uri_does_not_exist",
-    "description": "Missing conditional import."
+    "description": "Missing conditional import.",
+    "fixStatus": "noFix"
   },
   {
     "name": "constant_identifier_names",
-    "description": "Prefer using lowerCamelCase for constant names."
+    "description": "Prefer using lowerCamelCase for constant names.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "curly_braces_in_flow_control_structures",
-    "description": "DO use curly braces for all flow control structures."
+    "description": "DO use curly braces for all flow control structures.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "dangling_library_doc_comments",
-    "description": "Attach library doc comments to library directives."
+    "description": "Attach library doc comments to library directives.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "deprecated_consistency",
-    "description": "Missing deprecated annotation."
+    "description": "Missing deprecated annotation.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "directives_ordering",
-    "description": "Adhere to Effective Dart Guide directives sorting conventions."
+    "description": "Adhere to Effective Dart Guide directives sorting conventions.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "do_not_use_environment",
-    "description": "Do not use environment declared variables."
+    "description": "Do not use environment declared variables.",
+    "fixStatus": "noFix"
   },
   {
     "name": "empty_catches",
-    "description": "Avoid empty catch blocks."
+    "description": "Avoid empty catch blocks.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "empty_constructor_bodies",
-    "description": "Use `;` instead of `{}` for empty constructor bodies."
+    "description": "Use `;` instead of `{}` for empty constructor bodies.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "enable_null_safety",
-    "description": "Do use sound null safety."
+    "description": "Do use sound null safety.",
+    "fixStatus": "noFix"
   },
   {
     "name": "eol_at_end_of_file",
-    "description": "Put a single newline at end of file."
+    "description": "Put a single newline at end of file.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "exhaustive_cases",
-    "description": "Define case clauses for all constants in enum-like classes."
+    "description": "Define case clauses for all constants in enum-like classes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "file_names",
-    "description": "Name source files using `lowercase_with_underscores`."
+    "description": "Name source files using `lowercase_with_underscores`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "flutter_style_todos",
-    "description": "Use Flutter TODO format: // TODO(username): message, https://URL-to-issue."
+    "description": "Use Flutter TODO format: // TODO(username): message, https://URL-to-issue.",
+    "fixStatus": "noFix"
   },
   {
     "name": "implementation_imports",
-    "description": "Don't import implementation files from another package."
+    "description": "Don't import implementation files from another package.",
+    "fixStatus": "noFix"
   },
   {
     "name": "implicit_call_tearoffs",
-    "description": "Explicitly tear-off `call` methods when using an object as a Function."
+    "description": "Explicitly tear-off `call` methods when using an object as a Function.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "join_return_with_assignment",
-    "description": "Join return statement with assignment when possible."
+    "description": "Join return statement with assignment when possible.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "leading_newlines_in_multiline_strings",
-    "description": "Start multiline strings with a newline."
+    "description": "Start multiline strings with a newline.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "library_annotations",
-    "description": "Attach library annotations to library directives."
+    "description": "Attach library annotations to library directives.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "library_names",
-    "description": "Name libraries using `lowercase_with_underscores`."
+    "description": "Name libraries using `lowercase_with_underscores`.",
+    "fixStatus": "noFix"
   },
   {
     "name": "library_prefixes",
-    "description": "Use `lowercase_with_underscores` when specifying a library prefix."
+    "description": "Use `lowercase_with_underscores` when specifying a library prefix.",
+    "fixStatus": "noFix"
   },
   {
     "name": "library_private_types_in_public_api",
-    "description": "Avoid using private types in public APIs."
+    "description": "Avoid using private types in public APIs.",
+    "fixStatus": "noFix"
   },
   {
     "name": "lines_longer_than_80_chars",
-    "description": "Avoid lines longer than 80 characters."
+    "description": "Avoid lines longer than 80 characters.",
+    "fixStatus": "noFix"
   },
   {
     "name": "matching_super_parameters",
-    "description": "Use matching super parameter names."
+    "description": "Use matching super parameter names.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "missing_whitespace_between_adjacent_strings",
-    "description": "Missing whitespace between adjacent strings."
+    "description": "Missing whitespace between adjacent strings.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "no_default_cases",
-    "description": "No default cases."
+    "description": "No default cases.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "no_leading_underscores_for_library_prefixes",
-    "description": "Avoid leading underscores for library prefixes."
+    "description": "Avoid leading underscores for library prefixes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "no_leading_underscores_for_local_identifiers",
-    "description": "Avoid leading underscores for local identifiers."
+    "description": "Avoid leading underscores for local identifiers.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "no_literal_bool_comparisons",
-    "description": "Don't compare booleans to boolean literals."
+    "description": "Don't compare booleans to boolean literals.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "no_runtimeType_toString",
-    "description": "Avoid calling toString() on runtimeType."
+    "description": "Avoid calling toString() on runtimeType.",
+    "fixStatus": "noFix"
   },
   {
     "name": "non_constant_identifier_names",
-    "description": "Name non-constant identifiers using lowerCamelCase."
+    "description": "Name non-constant identifiers using lowerCamelCase.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "noop_primitive_operations",
-    "description": "Noop primitive operations."
+    "description": "Noop primitive operations.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "null_check_on_nullable_type_parameter",
-    "description": "Don't use null check on a potentially nullable type parameter."
+    "description": "Don't use null check on a potentially nullable type parameter.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "null_closures",
-    "description": "Do not pass `null` as an argument where a closure is expected."
+    "description": "Do not pass `null` as an argument where a closure is expected.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "omit_local_variable_types",
-    "description": "Omit type annotations for local variables."
+    "description": "Omit type annotations for local variables.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "one_member_abstracts",
-    "description": "Avoid defining a one-member abstract class when a simple function will do."
+    "description": "Avoid defining a one-member abstract class when a simple function will do.",
+    "fixStatus": "noFix"
   },
   {
     "name": "only_throw_errors",
-    "description": "Only throw instances of classes extending either Exception or Error."
+    "description": "Only throw instances of classes extending either Exception or Error.",
+    "fixStatus": "noFix"
   },
   {
     "name": "overridden_fields",
-    "description": "Don't override fields."
+    "description": "Don't override fields.",
+    "fixStatus": "noFix"
   },
   {
     "name": "package_api_docs",
-    "description": "Provide doc comments for all public APIs."
+    "description": "Provide doc comments for all public APIs.",
+    "fixStatus": "noFix"
   },
   {
     "name": "package_prefixed_library_names",
-    "description": "Prefix library names with the package name and a dot-separated path."
+    "description": "Prefix library names with the package name and a dot-separated path.",
+    "fixStatus": "noFix"
   },
   {
     "name": "parameter_assignments",
-    "description": "Don't reassign references to parameters of functions or methods."
+    "description": "Don't reassign references to parameters of functions or methods.",
+    "fixStatus": "noFix"
   },
   {
     "name": "prefer_adjacent_string_concatenation",
-    "description": "Use adjacent strings to concatenate string literals."
+    "description": "Use adjacent strings to concatenate string literals.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_asserts_in_initializer_lists",
-    "description": "Prefer putting asserts in initializer lists."
+    "description": "Prefer putting asserts in initializer lists.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "prefer_asserts_with_message",
-    "description": "Prefer asserts with message."
+    "description": "Prefer asserts with message.",
+    "fixStatus": "noFix"
   },
   {
     "name": "prefer_bool_in_asserts",
-    "description": "Prefer using a boolean as the assert condition."
+    "description": "Prefer using a boolean as the assert condition.",
+    "fixStatus": "noFix"
   },
   {
     "name": "prefer_collection_literals",
-    "description": "Use collection literals when possible."
+    "description": "Use collection literals when possible.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_conditional_assignment",
-    "description": "Prefer using `??=` over testing for null."
+    "description": "Prefer using `??=` over testing for null.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_constructors",
-    "description": "Prefer const with constant constructors."
+    "description": "Prefer const with constant constructors.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_constructors_in_immutables",
-    "description": "Prefer declaring const constructors on `@immutable` classes."
+    "description": "Prefer declaring const constructors on `@immutable` classes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_declarations",
-    "description": "Prefer const over final for declarations."
+    "description": "Prefer const over final for declarations.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_literals_to_create_immutables",
-    "description": "Prefer const literals as parameters of constructors on @immutable classes."
+    "description": "Prefer const literals as parameters of constructors on @immutable classes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_constructors_over_static_methods",
-    "description": "Prefer defining constructors instead of static methods to create instances."
+    "description": "Prefer defining constructors instead of static methods to create instances.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "prefer_contains",
-    "description": "Use contains for `List` and `String` instances."
+    "description": "Use contains for `List` and `String` instances.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_double_quotes",
-    "description": "Prefer double quotes where they won't require escape sequences."
+    "description": "Prefer double quotes where they won't require escape sequences.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_equal_for_default_values",
-    "description": "Use `=` to separate a named parameter from its default value."
+    "description": "Use `=` to separate a named parameter from its default value.",
+    "fixStatus": "noFix"
   },
   {
     "name": "prefer_expression_function_bodies",
-    "description": "Use => for short members whose body is a single return statement."
+    "description": "Use => for short members whose body is a single return statement.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_final_fields",
-    "description": "Private field could be final."
+    "description": "Private field could be final.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_final_in_for_each",
-    "description": "Prefer final in for-each loop variable if reference is not reassigned."
+    "description": "Prefer final in for-each loop variable if reference is not reassigned.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_final_locals",
-    "description": "Prefer final for variable declarations if they are not reassigned."
+    "description": "Prefer final for variable declarations if they are not reassigned.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_final_parameters",
-    "description": "Prefer final for parameter declarations if they are not reassigned."
+    "description": "Prefer final for parameter declarations if they are not reassigned.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_for_elements_to_map_fromIterable",
-    "description": "Prefer 'for' elements when building maps from iterables."
+    "description": "Prefer 'for' elements when building maps from iterables.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_foreach",
-    "description": "Use `forEach` to only apply a function to all the elements."
+    "description": "Use `forEach` to only apply a function to all the elements.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "prefer_function_declarations_over_variables",
-    "description": "Use a function declaration to bind a function to a name."
+    "description": "Use a function declaration to bind a function to a name.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_generic_function_type_aliases",
-    "description": "Prefer generic function type aliases."
+    "description": "Prefer generic function type aliases.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_if_elements_to_conditional_expressions",
-    "description": "Prefer if elements to conditional expressions where possible."
+    "description": "Prefer if elements to conditional expressions where possible.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_if_null_operators",
-    "description": "Prefer using if null operators."
+    "description": "Prefer using if null operators.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_initializing_formals",
-    "description": "Use initializing formals when possible."
+    "description": "Use initializing formals when possible.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_inlined_adds",
-    "description": "Inline list item declarations where possible."
+    "description": "Inline list item declarations where possible.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_int_literals",
-    "description": "Prefer int literals over double literals."
+    "description": "Prefer int literals over double literals.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_interpolation_to_compose_strings",
-    "description": "Use interpolation to compose strings and values."
+    "description": "Use interpolation to compose strings and values.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_is_empty",
-    "description": "Use `isEmpty` for Iterables and Maps."
+    "description": "Use `isEmpty` for Iterables and Maps.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_is_not_empty",
-    "description": "Use `isNotEmpty` for Iterables and Maps."
+    "description": "Use `isNotEmpty` for Iterables and Maps.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_is_not_operator",
-    "description": "Prefer is! operator."
+    "description": "Prefer is! operator.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_iterable_whereType",
-    "description": "Prefer to use whereType on iterable."
+    "description": "Prefer to use whereType on iterable.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_mixin",
-    "description": "Prefer using mixins."
+    "description": "Prefer using mixins.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "prefer_null_aware_method_calls",
-    "description": "Prefer null aware method calls."
+    "description": "Prefer null aware method calls.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "prefer_null_aware_operators",
-    "description": "Prefer using null aware operators."
+    "description": "Prefer using null aware operators.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_single_quotes",
-    "description": "Only use double quotes for strings containing single quotes."
+    "description": "Only use double quotes for strings containing single quotes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_spread_collections",
-    "description": "Use spread collections when possible."
+    "description": "Use spread collections when possible.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "prefer_typing_uninitialized_variables",
-    "description": "Prefer typing uninitialized variables and fields."
+    "description": "Prefer typing uninitialized variables and fields.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "provide_deprecation_message",
-    "description": "Provide a deprecation message, via @Deprecated(\"message\")."
+    "description": "Provide a deprecation message, via @Deprecated(\"message\").",
+    "fixStatus": "noFix"
   },
   {
     "name": "public_member_api_docs",
-    "description": "Document all public members."
+    "description": "Document all public members.",
+    "fixStatus": "noFix"
   },
   {
     "name": "recursive_getters",
-    "description": "Property getter recursively returns itself."
+    "description": "Property getter recursively returns itself.",
+    "fixStatus": "noFix"
   },
   {
     "name": "require_trailing_commas",
-    "description": "Use trailing commas for all function calls and declarations."
+    "description": "Use trailing commas for all function calls and declarations.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "sized_box_for_whitespace",
-    "description": "SizedBox for whitespace."
+    "description": "SizedBox for whitespace.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "sized_box_shrink_expand",
-    "description": "Use SizedBox shrink and expand named constructors."
+    "description": "Use SizedBox shrink and expand named constructors.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "slash_for_doc_comments",
-    "description": "Prefer using /// for doc comments."
+    "description": "Prefer using /// for doc comments.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "sort_child_properties_last",
-    "description": "Sort child properties last in widget instance creations."
+    "description": "Sort child properties last in widget instance creations.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "sort_constructors_first",
-    "description": "Sort constructor declarations before other members."
+    "description": "Sort constructor declarations before other members.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "sort_unnamed_constructors_first",
-    "description": "Sort unnamed constructor declarations first."
+    "description": "Sort unnamed constructor declarations first.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "super_goes_last",
-    "description": "Place the `super` call last in a constructor initialization list."
+    "description": "Place the `super` call last in a constructor initialization list.",
+    "fixStatus": "noFix"
   },
   {
     "name": "tighten_type_of_initializing_formals",
-    "description": "Tighten type of initializing formal."
+    "description": "Tighten type of initializing formal.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "type_annotate_public_apis",
-    "description": "Type annotate public APIs."
+    "description": "Type annotate public APIs.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "type_init_formals",
-    "description": "Don't type annotate initializing formals."
+    "description": "Don't type annotate initializing formals.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "type_literal_in_constant_pattern",
-    "description": "Don't use constant patterns with type literals."
+    "description": "Don't use constant patterns with type literals.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unawaited_futures",
-    "description": "`Future` results in `async` function bodies must be `await`ed or marked `unawaited` using `dart:async`."
+    "description": "`Future` results in `async` function bodies must be `await`ed or marked `unawaited` using `dart:async`.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_await_in_return",
-    "description": "Unnecessary await keyword in return."
+    "description": "Unnecessary await keyword in return.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "unnecessary_brace_in_string_interps",
-    "description": "Avoid using braces in interpolation when not needed."
+    "description": "Avoid using braces in interpolation when not needed.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_breaks",
-    "description": "Don't use explicit `break`s when a break is implied."
+    "description": "Don't use explicit `break`s when a break is implied.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_const",
-    "description": "Avoid const keyword."
+    "description": "Avoid const keyword.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_constructor_name",
-    "description": "Unnecessary `.new` constructor name."
+    "description": "Unnecessary `.new` constructor name.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_final",
-    "description": "Don't use `final` for local variables."
+    "description": "Don't use `final` for local variables.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_getters_setters",
-    "description": "Avoid wrapping fields in getters and setters just to be \"safe\"."
+    "description": "Avoid wrapping fields in getters and setters just to be \"safe\".",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_lambdas",
-    "description": "Don't create a lambda when a tear-off will do."
+    "description": "Don't create a lambda when a tear-off will do.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_late",
-    "description": "Don't specify the `late` modifier when it is not needed."
+    "description": "Don't specify the `late` modifier when it is not needed.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_library_directive",
-    "description": "Avoid library directives unless they have documentation comments or annotations."
+    "description": "Avoid library directives unless they have documentation comments or annotations.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_new",
-    "description": "Unnecessary new keyword."
+    "description": "Unnecessary new keyword.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_null_aware_assignments",
-    "description": "Avoid null in null-aware assignment."
+    "description": "Avoid null in null-aware assignment.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_null_aware_operator_on_extension_on_nullable",
-    "description": "Unnecessary null aware operator on extension on a nullable type."
+    "description": "Unnecessary null aware operator on extension on a nullable type.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "unnecessary_null_checks",
-    "description": "Unnecessary null checks."
+    "description": "Unnecessary null checks.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_null_in_if_null_operators",
-    "description": "Avoid using `null` in `if null` operators."
+    "description": "Avoid using `null` in `if null` operators.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_nullable_for_final_variable_declarations",
-    "description": "Use a non-nullable type for a final variable initialized with a non-nullable value."
+    "description": "Use a non-nullable type for a final variable initialized with a non-nullable value.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_overrides",
-    "description": "Don't override a method to do a super method invocation with the same parameters."
+    "description": "Don't override a method to do a super method invocation with the same parameters.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_parenthesis",
-    "description": "Unnecessary parentheses can be removed."
+    "description": "Unnecessary parentheses can be removed.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_raw_strings",
-    "description": "Unnecessary raw string."
+    "description": "Unnecessary raw string.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_string_escapes",
-    "description": "Remove unnecessary backslashes in strings."
+    "description": "Remove unnecessary backslashes in strings.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_string_interpolations",
-    "description": "Unnecessary string interpolation."
+    "description": "Unnecessary string interpolation.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_this",
-    "description": "Don't access members with `this` unless avoiding shadowing."
+    "description": "Don't access members with `this` unless avoiding shadowing.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_to_list_in_spreads",
-    "description": "Unnecessary toList() in spreads."
+    "description": "Unnecessary toList() in spreads.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unreachable_from_main",
-    "description": "Unreachable top-level members in executable libraries."
+    "description": "Unreachable top-level members in executable libraries.",
+    "fixStatus": "noFix"
   },
   {
     "name": "use_colored_box",
-    "description": "Use `ColoredBox`."
+    "description": "Use `ColoredBox`.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_decorated_box",
-    "description": "Use `DecoratedBox`."
+    "description": "Use `DecoratedBox`.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_enums",
-    "description": "Use enums rather than classes that behave like enums."
+    "description": "Use enums rather than classes that behave like enums.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_full_hex_values_for_flutter_colors",
-    "description": "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color."
+    "description": "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_function_type_syntax_for_parameters",
-    "description": "Use generic function type syntax for parameters."
+    "description": "Use generic function type syntax for parameters.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_if_null_to_convert_nulls_to_bools",
-    "description": "Use if-null operators to convert nulls to bools."
+    "description": "Use if-null operators to convert nulls to bools.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_is_even_rather_than_modulo",
-    "description": "Prefer intValue.isOdd/isEven instead of checking the result of % 2."
+    "description": "Prefer intValue.isOdd/isEven instead of checking the result of % 2.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_late_for_private_fields_and_variables",
-    "description": "Use late for private members with a non-nullable type."
+    "description": "Use late for private members with a non-nullable type.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_named_constants",
-    "description": "Use predefined named constants."
+    "description": "Use predefined named constants.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_raw_strings",
-    "description": "Use raw string to avoid escapes."
+    "description": "Use raw string to avoid escapes.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_rethrow_when_possible",
-    "description": "Use rethrow to rethrow a caught exception."
+    "description": "Use rethrow to rethrow a caught exception.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_setters_to_change_properties",
-    "description": "Use a setter for operations that conceptually change a property."
+    "description": "Use a setter for operations that conceptually change a property.",
+    "fixStatus": "noFix"
   },
   {
     "name": "use_string_buffers",
-    "description": "Use string buffers to compose strings."
+    "description": "Use string buffers to compose strings.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_string_in_part_of_directives",
-    "description": "Use string in part of directives."
+    "description": "Use string in part of directives.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_super_parameters",
-    "description": "Use super-initializer parameters where possible."
+    "description": "Use super-initializer parameters where possible.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_test_throws_matchers",
-    "description": "Use throwsA matcher instead of fail()."
+    "description": "Use throwsA matcher instead of fail().",
+    "fixStatus": "needsFix"
   },
   {
     "name": "use_to_and_as_if_applicable",
-    "description": "Start the name of the method with to/_to or as/_as if applicable."
+    "description": "Start the name of the method with to/_to or as/_as if applicable.",
+    "fixStatus": "noFix"
   },
   {
     "name": "void_checks",
-    "description": "Don't assign to void."
+    "description": "Don't assign to void.",
+    "fixStatus": "noFix"
   }
 ]

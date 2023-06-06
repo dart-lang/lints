@@ -1,3 +1,7 @@
+## 2.1.2-wip
+
+- Add 'has quick-fix' checkboxes to the package's readme.
+
 ## 2.1.1
 
 - Added the `analysis` and `lints` topics to the pubspec file.
