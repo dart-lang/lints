@@ -100,8 +100,8 @@ To use these lints create an `analysis_options.yaml` file with:
 `include: package:lints/core.yaml`.
 
 <!-- core -->
-| Lint Rules | Description | Fix |
-| :--------- | :---------- | --- |
+| Lint Rules | Description | [Fix][] |
+| :--------- | :---------- | ------- |
 | [`avoid_empty_else`](https://dart.dev/lints/avoid_empty_else) | Avoid empty else statements. | ✅ |
 | [`avoid_relative_lib_imports`](https://dart.dev/lints/avoid_relative_lib_imports) | Avoid relative imports for files in `lib/`. | ✅ |
 | [`avoid_shadowing_type_parameters`](https://dart.dev/lints/avoid_shadowing_type_parameters) | Avoid shadowing type parameters. |  |
@@ -138,8 +138,8 @@ To use these lints create an `analysis_options.yaml` file with:
 `include: package:lints/recommended.yaml`.
 
 <!-- recommended -->
-| Lint Rules | Description | Fix |
-| :--------- | :---------- | --- |
+| Lint Rules | Description | [Fix][] |
+| :--------- | :---------- | ------- |
 | [`annotate_overrides`](https://dart.dev/lints/annotate_overrides) | Annotate overridden members. | ✅ |
 | [`avoid_function_literals_in_foreach_calls`](https://dart.dev/lints/avoid_function_literals_in_foreach_calls) | Avoid using `forEach` with a function literal. | ✅ |
 | [`avoid_init_to_null`](https://dart.dev/lints/avoid_init_to_null) | Don't explicitly initialize variables to null. | ✅ |
@@ -206,3 +206,4 @@ To use these lints create an `analysis_options.yaml` file with:
 [linter repo]: https://github.com/dart-lang/linter
 [`package:pedantic`]: https://pub.dev/packages/pedantic
 [`package:flutter_lints`]: https://pub.dev/packages/flutter_lints
+[Fix]: https://dart.dev/tools/dart-fix
