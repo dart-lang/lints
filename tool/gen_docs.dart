@@ -84,8 +84,8 @@ String _createRuleTable(
   rules.sort();
 
   final lines = [
-    '| Lint Rules | Description | Fix |',
-    '| :--------- | :---------- | --- |',
+    '| Lint Rules | Description | [Fix][] |',
+    '| :--------- | :---------- | ------- |',
     ...rules.map((rule) {
       final ruleMeta =
           lintMeta.firstWhereOrNull((meta) => meta['name'] == rule);
