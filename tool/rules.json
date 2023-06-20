@@ -152,7 +152,7 @@
   {
     "name": "no_wildcard_variable_uses",
     "description": "Don't use wildcard parameters or variables.",
-    "fixStatus": "unregistered"
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "prefer_relative_imports",
@@ -182,7 +182,7 @@
   {
     "name": "unrelated_type_equality_checks",
     "description": "Equality operator `==` invocation with references of unrelated types.",
-    "fixStatus": "noFix"
+    "fixStatus": "unregistered"
   },
   {
     "name": "unsafe_html",
