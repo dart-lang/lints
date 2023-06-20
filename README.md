@@ -185,7 +185,6 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`unnecessary_brace_in_string_interps`](https://dart.dev/lints/unnecessary_brace_in_string_interps) | Avoid using braces in interpolation when not needed. | ✅ |
 | [`unnecessary_const`](https://dart.dev/lints/unnecessary_const) | Avoid const keyword. | ✅ |
 | [`unnecessary_constructor_name`](https://dart.dev/lints/unnecessary_constructor_name) | Unnecessary `.new` constructor name. | ✅ |
-| [`unnecessary_constructor_name`](https://dart.dev/lints/unnecessary_constructor_name) | Unnecessary `.new` constructor name. | ✅ |
 | [`unnecessary_getters_setters`](https://dart.dev/lints/unnecessary_getters_setters) | Avoid wrapping fields in getters and setters just to be "safe". | ✅ |
 | [`unnecessary_late`](https://dart.dev/lints/unnecessary_late) | Don't specify the `late` modifier when it is not needed. | ✅ |
 | [`unnecessary_new`](https://dart.dev/lints/unnecessary_new) | Unnecessary new keyword. | ✅ |
