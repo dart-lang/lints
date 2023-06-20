@@ -1,6 +1,15 @@
-## 2.1.2-wip
+## 3.0.0-wip
 
-- Add 'has quick-fix' checkboxes to the package's readme.
+- Added to core.yaml:
+    - `collection_methods_unrelated_type`
+    - `implicit_call_tearoffs`
+    - `use_string_in_part_of_directives`
+- Added to recommended.yaml:
+    - `unnecessary_constructor_name`
+- Removed from core.yaml:
+    - `iterable_contains_unrelated_type`
+    - `list_remove_unrelated_type`
+- Add info about which lints have quick fixs to the package's readme.
 
 ## 2.1.1
 

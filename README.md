@@ -109,13 +109,13 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`await_only_futures`](https://dart.dev/lints/await_only_futures) | Await only futures. | ✅ |
 | [`camel_case_extensions`](https://dart.dev/lints/camel_case_extensions) | Name extensions using UpperCamelCase. |  |
 | [`camel_case_types`](https://dart.dev/lints/camel_case_types) | Name types using UpperCamelCase. |  |
+| [`collection_methods_unrelated_type`](https://dart.dev/lints/collection_methods_unrelated_type) | Invocation of various collection methods with arguments of unrelated types. |  |
 | [`curly_braces_in_flow_control_structures`](https://dart.dev/lints/curly_braces_in_flow_control_structures) | DO use curly braces for all flow control structures. | ✅ |
 | [`depend_on_referenced_packages`](https://dart.dev/lints/depend_on_referenced_packages) | Depend on referenced packages. |  |
 | [`empty_catches`](https://dart.dev/lints/empty_catches) | Avoid empty catch blocks. | ✅ |
 | [`file_names`](https://dart.dev/lints/file_names) | Name source files using `lowercase_with_underscores`. |  |
 | [`hash_and_equals`](https://dart.dev/lints/hash_and_equals) | Always override `hashCode` if overriding `==`. | ✅ |
-| [`iterable_contains_unrelated_type`](https://dart.dev/lints/iterable_contains_unrelated_type) | Invocation of Iterable<E>.contains with references of unrelated types. |  |
-| [`list_remove_unrelated_type`](https://dart.dev/lints/list_remove_unrelated_type) | Invocation of `remove` with references of unrelated types. |  |
+| [`implicit_call_tearoffs`](https://dart.dev/lints/implicit_call_tearoffs) | Explicitly tear-off `call` methods when using an object as a Function. | ✅ |
 | [`no_duplicate_case_values`](https://dart.dev/lints/no_duplicate_case_values) | Don't use more than one case with same value. | ✅ |
 | [`non_constant_identifier_names`](https://dart.dev/lints/non_constant_identifier_names) | Name non-constant identifiers using lowerCamelCase. | ✅ |
 | [`null_check_on_nullable_type_parameter`](https://dart.dev/lints/null_check_on_nullable_type_parameter) | Don't use null check on a potentially nullable type parameter. | ✅ |
@@ -128,6 +128,7 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`provide_deprecation_message`](https://dart.dev/lints/provide_deprecation_message) | Provide a deprecation message, via @Deprecated("message"). |  |
 | [`unnecessary_overrides`](https://dart.dev/lints/unnecessary_overrides) | Don't override a method to do a super method invocation with the same parameters. | ✅ |
 | [`unrelated_type_equality_checks`](https://dart.dev/lints/unrelated_type_equality_checks) | Equality operator `==` invocation with references of unrelated types. |  |
+| [`use_string_in_part_of_directives`](https://dart.dev/lints/use_string_in_part_of_directives) | Use string in part of directives. | ✅ |
 | [`valid_regexps`](https://dart.dev/lints/valid_regexps) | Use valid regular expression syntax. |  |
 | [`void_checks`](https://dart.dev/lints/void_checks) | Don't assign to void. |  |
 <!-- core -->
@@ -183,6 +184,7 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`type_init_formals`](https://dart.dev/lints/type_init_formals) | Don't type annotate initializing formals. | ✅ |
 | [`unnecessary_brace_in_string_interps`](https://dart.dev/lints/unnecessary_brace_in_string_interps) | Avoid using braces in interpolation when not needed. | ✅ |
 | [`unnecessary_const`](https://dart.dev/lints/unnecessary_const) | Avoid const keyword. | ✅ |
+| [`unnecessary_constructor_name`](https://dart.dev/lints/unnecessary_constructor_name) | Unnecessary `.new` constructor name. | ✅ |
 | [`unnecessary_constructor_name`](https://dart.dev/lints/unnecessary_constructor_name) | Unnecessary `.new` constructor name. | ✅ |
 | [`unnecessary_getters_setters`](https://dart.dev/lints/unnecessary_getters_setters) | Avoid wrapping fields in getters and setters just to be "safe". | ✅ |
 | [`unnecessary_late`](https://dart.dev/lints/unnecessary_late) | Don't specify the `late` modifier when it is not needed. | ✅ |
