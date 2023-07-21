@@ -16,7 +16,7 @@ void main(List<String> args) async {
 
   final rulesJsonFile = File('tool/rules.json');
   final rulesUrl =
-      'https://dart-lang.github.io/linter/lints/machine/rules.json';
+      'https://raw.githubusercontent.com/dart-lang/site-www/main/src/_data/linter_rules.json';
   if (!justVerify) {
     rulesJsonFile.writeAsStringSync((await http.get(Uri.parse(rulesUrl))).body);
   }
@@ -54,7 +54,7 @@ void main(List<String> args) async {
       print('${readmeFile.path} is not up-to-date (lint tables need to be '
           'regenerated).');
       print('');
-      print("Run 'dart tools/gen_docs.dart' to re-generate.");
+      print("Run 'dart tool/gen_docs.dart' to re-generate.");
       exit(1);
     } else {
       print('${readmeFile.path} is up-to-date.');
@@ -93,7 +93,7 @@ String _createRuleTable(
       if (ruleMeta == null) {
         print('rules.json data for rule \'$rule\' not found.');
         print('Update lib/rules.json from '
-            'https://dart-lang.github.io/linter/lints/machine/rules.json.');
+            'https://raw.githubusercontent.com/dart-lang/site-www/main/src/_data/linter_rules.json.');
         exit(1);
       }
       final description = ruleMeta['description'] as String?;
