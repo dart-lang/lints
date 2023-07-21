@@ -16,7 +16,7 @@ void main(List<String> args) async {
 
   final rulesJsonFile = File('tool/rules.json');
   final rulesUrl =
-      'https://raw.githubusercontent.com/dart-lang/linter/main/tool/machine/rules.json';
+      'https://raw.githubusercontent.com/dart-lang/site-www/main/src/_data/linter_rules.json';
   if (!justVerify) {
     rulesJsonFile.writeAsStringSync((await http.get(Uri.parse(rulesUrl))).body);
   }
@@ -93,7 +93,7 @@ String _createRuleTable(
       if (ruleMeta == null) {
         print('rules.json data for rule \'$rule\' not found.');
         print('Update lib/rules.json from '
-            'https://raw.githubusercontent.com/dart-lang/linter/main/tool/machine/rules.json.');
+            'https://raw.githubusercontent.com/dart-lang/site-www/main/src/_data/linter_rules.json.');
         exit(1);
       }
       final description = ruleMeta['description'] as String?;
