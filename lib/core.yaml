@@ -1,8 +1,8 @@
-# This is a set of core lints used to identify critical issues. See
-# https://github.com/dart-lang/lints for more information.
+# This is a set of core lints used to identify critical issues.
+# Check out https://github.com/dart-lang/lints for more information.
 #
-# For documentation about customizing static analysis for your project, see
-# https://dart.dev/guides/language/analysis-options.
+# To learn more about customizing static analysis for your package or app,
+# visit https://dart.dev/tools/analysis.
 
 linter:
   rules:

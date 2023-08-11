@@ -34,21 +34,21 @@ sets in the ecosystem (available at [pub.dev](https://pub.dev/)).
 Rule set authors: consider adding the `lints` topic to your pubspec to allow
 easier discovery (e.g.,
 [pub.dev/packages?q=topic:lints](https://pub.dev/packages?q=topic%3Alints)).
-For more information about topics, see
+For more information about topics, visit
 [dart.dev/tools/pub/pubspec#topics](https://dart.dev/tools/pub/pubspec#topics).
 
 ## Where these lints are used
 
 When creating new Dart project using the [`dart create`][dart create] command,
-the lints from `package:lints` are enabled by default.
+the `recommended` set of lints from `package:lints` is enabled by default.
 
 When uploading a package to the [pub.dev] package repository, packages are
 [awarded pub points][scoring] based on how many of the 'core' lints pass.
 
 ## Enabling the lints
 
-For new apps created with `dart create` the `recommended` set of lints are enabled
-by default.
+For new apps created with `dart create` the `recommended` set of lints are
+enabled by default.
 
 For existing apps or packages, you can enable these lints via:
 
@@ -74,7 +74,7 @@ For existing apps or packages, you can enable these lints via:
 ## Customizing the predefined lint sets
 
 For details on customizing static analysis above and beyond the predefined
-lint sets, see [customizing static analysis].
+lint sets, check out [Customizing static analysis].
 
 ## Evolving the lint sets
 
@@ -198,13 +198,12 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`use_rethrow_when_possible`](https://dart.dev/lints/use_rethrow_when_possible) | Use rethrow to rethrow a caught exception. | ✅ |
 <!-- recommended -->
 
-[dart create]: https://dart.dev/tools/dart-tool
+[dart create]: https://dart.dev/tools/dart-create
 [scoring]: https://pub.dev/help/scoring
-[customizing static analysis]: https://dart.dev/guides/language/analysis-options
+[customizing static analysis]: https://dart.dev/tools/analysis
 [rules]: https://dart.dev/tools/linter-rules
 [pub.dev]: https://pub.dev
 [issue]: https://github.com/dart-lang/lints/issues
 [linter repo]: https://github.com/dart-lang/linter
-[`package:pedantic`]: https://pub.dev/packages/pedantic
 [`package:flutter_lints`]: https://pub.dev/packages/flutter_lints
 [Fix]: https://dart.dev/tools/dart-fix
