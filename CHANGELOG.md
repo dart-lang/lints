@@ -7,6 +7,8 @@
 - Removed from `core.yaml`:
     - `iterable_contains_unrelated_type`
     - `list_remove_unrelated_type`
+- Removed from `recommended.yaml`:
+    - `deprecated_colon_for_default_value`
 - Add info about which lints have quick fixes to the package's readme.
 
 ## 2.1.1
