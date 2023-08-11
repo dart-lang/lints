@@ -167,7 +167,6 @@ To use these lints create an `analysis_options.yaml` file with:
 | [`prefer_collection_literals`](https://dart.dev/lints/prefer_collection_literals) | Use collection literals when possible. | ✅ |
 | [`prefer_conditional_assignment`](https://dart.dev/lints/prefer_conditional_assignment) | Prefer using `??=` over testing for null. | ✅ |
 | [`prefer_contains`](https://dart.dev/lints/prefer_contains) | Use contains for `List` and `String` instances. | ✅ |
-| [`prefer_equal_for_default_values`](https://dart.dev/lints/prefer_equal_for_default_values) | Use `=` to separate a named parameter from its default value. |  |
 | [`prefer_final_fields`](https://dart.dev/lints/prefer_final_fields) | Private field could be final. | ✅ |
 | [`prefer_for_elements_to_map_fromIterable`](https://dart.dev/lints/prefer_for_elements_to_map_fromIterable) | Prefer 'for' elements when building maps from iterables. | ✅ |
 | [`prefer_function_declarations_over_variables`](https://dart.dev/lints/prefer_function_declarations_over_variables) | Use a function declaration to bind a function to a name. | ✅ |
