@@ -23,13 +23,13 @@ void main(List<String> args) async {
   final rulesJson = (jsonDecode(rulesJsonFile.readAsStringSync()) as List)
       .cast<Map<String, dynamic>>();
 
-  final readmeFile = File('README.md');
-  final readmeContent = readmeFile.readAsStringSync();
+  final rulesMdFile = File('rules.md');
+  final rulesMdContent = rulesMdFile.readAsStringSync();
 
   if (justVerify) {
-    print('Validating that ${readmeFile.path} is up-to-date ...');
+    print('Validating that ${rulesMdFile.path} is up-to-date ...');
   } else {
-    print('Regenerating ${readmeFile.path} ...');
+    print('Regenerating ${rulesMdFile.path} ...');
   }
 
   for (var file in ['lib/core.yaml', 'lib/recommended.yaml']) {
@@ -37,7 +37,7 @@ void main(List<String> args) async {
     lintRules[name] = _parseRules(File(file));
   }
 
-  var newContent = readmeContent;
+  var newContent = rulesMdContent;
 
   for (var ruleSetName in lintRules.keys) {
     final comment = '<!-- $ruleSetName -->\n';
@@ -50,14 +50,14 @@ void main(List<String> args) async {
   }
 
   if (justVerify) {
-    if (newContent != readmeContent) {
-      print('${readmeFile.path} is not up-to-date (lint tables need to be '
+    if (newContent != rulesMdContent) {
+      print('${rulesMdFile.path} is not up-to-date (lint tables need to be '
           'regenerated).');
       print('');
       print("Run 'dart tool/gen_docs.dart' to re-generate.");
       exit(1);
     } else {
-      print('${readmeFile.path} is up-to-date.');
+      print('${rulesMdFile.path} is up-to-date.');
     }
   } else {
     // Re-save rules.json.
@@ -68,9 +68,9 @@ void main(List<String> args) async {
     rulesJsonFile
         .writeAsStringSync(JsonEncoder.withIndent('  ').convert(rulesJson));
 
-    // Write out the readme file.
-    readmeFile.writeAsStringSync(newContent);
-    print('Wrote ${readmeFile.path}.');
+    // Write out the rules md file.
+    rulesMdFile.writeAsStringSync(newContent);
+    print('Wrote ${rulesMdFile.path}.');
   }
 }
 
