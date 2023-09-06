@@ -97,3 +97,5 @@
 | [`use_function_type_syntax_for_parameters`](https://dart.dev/lints/use_function_type_syntax_for_parameters) | Use generic function type syntax for parameters. | ✅ |
 | [`use_rethrow_when_possible`](https://dart.dev/lints/use_rethrow_when_possible) | Use rethrow to rethrow a caught exception. | ✅ |
 <!-- recommended -->
+
+[Fix]: https://dart.dev/tools/dart-fix

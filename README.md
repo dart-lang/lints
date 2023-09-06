@@ -105,4 +105,3 @@ of rules that make up the core and recommended rule sets.
 [issue]: https://github.com/dart-lang/lints/issues
 [linter repo]: https://github.com/dart-lang/linter
 [`package:flutter_lints`]: https://pub.dev/packages/flutter_lints
-[Fix]: https://dart.dev/tools/dart-fix
