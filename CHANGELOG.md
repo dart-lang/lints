@@ -8,6 +8,8 @@
     - `iterable_contains_unrelated_type`
     - `list_remove_unrelated_type`
 - Add info about which lints have quick fixes to the package's readme.
+- Move the list of lint rules from the readme to a separate
+  [rules.md](https://github.com/dart-lang/lints/blob/main/rules.md) file.
 
 ## 2.1.1
 
