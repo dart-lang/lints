@@ -94,5 +94,15 @@ we know to write Dart code. The process we use is:
 
 ## Lint set contents
 
-See [rules.md](https://github.com/dart-lang/lints/blob/main/rules.md) for list
+See [rules.md](https://github.com/dart-lang/lints/blob/main/rules.md) for a list
 of rules that make up the core and recommended rule sets.
+
+[dart create]: https://dart.dev/tools/dart-create
+[scoring]: https://pub.dev/help/scoring
+[customizing static analysis]: https://dart.dev/tools/analysis
+[rules]: https://dart.dev/tools/linter-rules
+[pub.dev]: https://pub.dev
+[issue]: https://github.com/dart-lang/lints/issues
+[linter repo]: https://github.com/dart-lang/linter
+[`package:flutter_lints`]: https://pub.dev/packages/flutter_lints
+[Fix]: https://dart.dev/tools/dart-fix
