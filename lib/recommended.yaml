@@ -37,7 +37,6 @@ linter:
     - prefer_collection_literals
     - prefer_conditional_assignment
     - prefer_contains
-    - prefer_equal_for_default_values
     - prefer_final_fields
     - prefer_for_elements_to_map_fromIterable
     - prefer_function_declarations_over_variables
@@ -64,5 +63,7 @@ linter:
     - unnecessary_string_escapes
     - unnecessary_string_interpolations
     - unnecessary_this
+    - unnecessary_to_list_in_spreads
     - use_function_type_syntax_for_parameters
     - use_rethrow_when_possible
+    - use_super_parameters

@@ -20,6 +20,7 @@
 | [`hash_and_equals`](https://dart.dev/lints/hash_and_equals) | Always override `hashCode` if overriding `==`. | ✅ |
 | [`implicit_call_tearoffs`](https://dart.dev/lints/implicit_call_tearoffs) | Explicitly tear-off `call` methods when using an object as a Function. | ✅ |
 | [`no_duplicate_case_values`](https://dart.dev/lints/no_duplicate_case_values) | Don't use more than one case with same value. | ✅ |
+| [`no_wildcard_variable_uses`](https://dart.dev/lints/no_wildcard_variable_uses) | Don't use wildcard parameters or variables. |  |
 | [`non_constant_identifier_names`](https://dart.dev/lints/non_constant_identifier_names) | Name non-constant identifiers using lowerCamelCase. | ✅ |
 | [`null_check_on_nullable_type_parameter`](https://dart.dev/lints/null_check_on_nullable_type_parameter) | Don't use null check on a potentially nullable type parameter. | ✅ |
 | [`package_prefixed_library_names`](https://dart.dev/lints/package_prefixed_library_names) | Prefix library names with the package name and a dot-separated path. |  |
@@ -29,6 +30,8 @@
 | [`prefer_iterable_whereType`](https://dart.dev/lints/prefer_iterable_whereType) | Prefer to use whereType on iterable. | ✅ |
 | [`prefer_typing_uninitialized_variables`](https://dart.dev/lints/prefer_typing_uninitialized_variables) | Prefer typing uninitialized variables and fields. | ✅ |
 | [`provide_deprecation_message`](https://dart.dev/lints/provide_deprecation_message) | Provide a deprecation message, via @Deprecated("message"). |  |
+| [`secure_pubspec_urls`](https://dart.dev/lints/secure_pubspec_urls) | Use secure urls in `pubspec.yaml`. |  |
+| [`type_literal_in_constant_pattern`](https://dart.dev/lints/type_literal_in_constant_pattern) | Don't use constant patterns with type literals. | ✅ |
 | [`unnecessary_overrides`](https://dart.dev/lints/unnecessary_overrides) | Don't override a method to do a super method invocation with the same parameters. | ✅ |
 | [`unrelated_type_equality_checks`](https://dart.dev/lints/unrelated_type_equality_checks) | Equality operator `==` invocation with references of unrelated types. |  |
 | [`use_string_in_part_of_directives`](https://dart.dev/lints/use_string_in_part_of_directives) | Use string in part of directives. | ✅ |
@@ -67,7 +70,6 @@
 | [`prefer_collection_literals`](https://dart.dev/lints/prefer_collection_literals) | Use collection literals when possible. | ✅ |
 | [`prefer_conditional_assignment`](https://dart.dev/lints/prefer_conditional_assignment) | Prefer using `??=` over testing for null. | ✅ |
 | [`prefer_contains`](https://dart.dev/lints/prefer_contains) | Use contains for `List` and `String` instances. | ✅ |
-| [`prefer_equal_for_default_values`](https://dart.dev/lints/prefer_equal_for_default_values) | Use `=` to separate a named parameter from its default value. |  |
 | [`prefer_final_fields`](https://dart.dev/lints/prefer_final_fields) | Private field could be final. | ✅ |
 | [`prefer_for_elements_to_map_fromIterable`](https://dart.dev/lints/prefer_for_elements_to_map_fromIterable) | Prefer 'for' elements when building maps from iterables. | ✅ |
 | [`prefer_function_declarations_over_variables`](https://dart.dev/lints/prefer_function_declarations_over_variables) | Use a function declaration to bind a function to a name. | ✅ |
@@ -94,8 +96,10 @@
 | [`unnecessary_string_escapes`](https://dart.dev/lints/unnecessary_string_escapes) | Remove unnecessary backslashes in strings. | ✅ |
 | [`unnecessary_string_interpolations`](https://dart.dev/lints/unnecessary_string_interpolations) | Unnecessary string interpolation. | ✅ |
 | [`unnecessary_this`](https://dart.dev/lints/unnecessary_this) | Don't access members with `this` unless avoiding shadowing. | ✅ |
+| [`unnecessary_to_list_in_spreads`](https://dart.dev/lints/unnecessary_to_list_in_spreads) | Unnecessary toList() in spreads. | ✅ |
 | [`use_function_type_syntax_for_parameters`](https://dart.dev/lints/use_function_type_syntax_for_parameters) | Use generic function type syntax for parameters. | ✅ |
 | [`use_rethrow_when_possible`](https://dart.dev/lints/use_rethrow_when_possible) | Use rethrow to rethrow a caught exception. | ✅ |
+| [`use_super_parameters`](https://dart.dev/lints/use_super_parameters) | Use super-initializer parameters where possible. | ✅ |
 <!-- recommended -->
 
 [Fix]: https://dart.dev/tools/dart-fix

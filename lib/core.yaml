@@ -21,6 +21,7 @@ linter:
     - hash_and_equals
     - implicit_call_tearoffs
     - no_duplicate_case_values
+    - no_wildcard_variable_uses
     - non_constant_identifier_names
     - null_check_on_nullable_type_parameter
     - package_prefixed_library_names
@@ -30,6 +31,8 @@ linter:
     - prefer_iterable_whereType
     - prefer_typing_uninitialized_variables
     - provide_deprecation_message
+    - secure_pubspec_urls
+    - type_literal_in_constant_pattern
     - unnecessary_overrides
     - unrelated_type_equality_checks
     - use_string_in_part_of_directives

@@ -1,12 +1,18 @@
 ## 3.0.0-wip
 
-- Added to `core.yaml`:
-    - `collection_methods_unrelated_type`
-    - `implicit_call_tearoffs`
-    - `use_string_in_part_of_directives`
-- Removed from `core.yaml`:
-    - `iterable_contains_unrelated_type`
-    - `list_remove_unrelated_type`
+- `core`:
+  - added `collection_methods_unrelated_type`
+  - added `implicit_call_tearoffs`
+  - added `no_wildcard_variable_uses`
+  - added `secure_pubspec_urls`
+  - added `type_literal_in_constant_pattern`
+  - added `use_string_in_part_of_directives`
+  - removed `iterable_contains_unrelated_type`
+  - removed `list_remove_unrelated_type`
+- `recommended`:
+  - added `unnecessary_to_list_in_spreads`
+  - added `use_super_parameters`
+  - removed `prefer_equal_for_default_values`
 - Add info about which lints have quick fixes to the package's readme.
 - Move the list of lint rules from the readme to a separate
   [rules.md](https://github.com/dart-lang/lints/blob/main/rules.md) file.
