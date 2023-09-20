@@ -54,7 +54,6 @@
 | [`avoid_single_cascade_in_expression_statements`](https://dart.dev/lints/avoid_single_cascade_in_expression_statements) | Avoid single cascade in expression statements. | ✅ |
 | [`constant_identifier_names`](https://dart.dev/lints/constant_identifier_names) | Prefer using lowerCamelCase for constant names. | ✅ |
 | [`control_flow_in_finally`](https://dart.dev/lints/control_flow_in_finally) | Avoid control flow in finally blocks. |  |
-| [`deprecated_consistency`](https://dart.dev/lints/deprecated_consistency) | Missing deprecated annotation. |  |
 | [`empty_constructor_bodies`](https://dart.dev/lints/empty_constructor_bodies) | Use `;` instead of `{}` for empty constructor bodies. | ✅ |
 | [`empty_statements`](https://dart.dev/lints/empty_statements) | Avoid empty statements. | ✅ |
 | [`exhaustive_cases`](https://dart.dev/lints/exhaustive_cases) | Define case clauses for all constants in enum-like classes. | ✅ |

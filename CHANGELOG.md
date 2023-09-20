@@ -10,7 +10,6 @@
   - removed `iterable_contains_unrelated_type`
   - removed `list_remove_unrelated_type`
 - `recommended`:
-  - added `deprecated_consistency`
   - added `unnecessary_to_list_in_spreads`
   - added `use_super_parameters`
   - removed `prefer_equal_for_default_values`
