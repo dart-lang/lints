@@ -1,4 +1,4 @@
-## 3.0.0-wip
+## 3.0.0-dev
 
 - `core`:
   - added `collection_methods_unrelated_type`
