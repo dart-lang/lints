@@ -1,5 +1,5 @@
 name: lints
-version: 3.0.0-beta
+version: 3.0.0-beta.2
 description: >
   Official Dart lint rules. Defines the 'core' and 'recommended' set of lints
   suggested by the Dart team.
