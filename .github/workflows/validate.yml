@@ -17,6 +17,7 @@ jobs:
     strategy:
       matrix:
         sdk: [3.0.0, stable, beta]
+        fail-fast: false
 
     steps:
       - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
