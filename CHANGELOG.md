@@ -1,9 +1,12 @@
+## 3.0.0-beta.2
+
+- Remove `no_wildcard_variable_uses` from core.
+
 ## 3.0.0-beta
 
 - `core`:
   - added `collection_methods_unrelated_type`
   - added `implicit_call_tearoffs`
-  - added `no_wildcard_variable_uses`
   - added `secure_pubspec_urls`
   - added `type_literal_in_constant_pattern`
   - added `use_string_in_part_of_directives`
