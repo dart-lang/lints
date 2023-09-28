@@ -15,6 +15,7 @@ linter:
     - camel_case_types
     - collection_methods_unrelated_type
     - curly_braces_in_flow_control_structures
+    - dangling_library_doc_comments
     - depend_on_referenced_packages
     - empty_catches
     - file_names

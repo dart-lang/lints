@@ -14,6 +14,7 @@
 | [`camel_case_types`](https://dart.dev/lints/camel_case_types) | Name types using UpperCamelCase. |  |
 | [`collection_methods_unrelated_type`](https://dart.dev/lints/collection_methods_unrelated_type) | Invocation of various collection methods with arguments of unrelated types. |  |
 | [`curly_braces_in_flow_control_structures`](https://dart.dev/lints/curly_braces_in_flow_control_structures) | DO use curly braces for all flow control structures. | ✅ |
+| [`dangling_library_doc_comments`](https://dart.dev/lints/dangling_library_doc_comments) | Attach library doc comments to library directives. | ✅ |
 | [`depend_on_referenced_packages`](https://dart.dev/lints/depend_on_referenced_packages) | Depend on referenced packages. |  |
 | [`empty_catches`](https://dart.dev/lints/empty_catches) | Avoid empty catch blocks. | ✅ |
 | [`file_names`](https://dart.dev/lints/file_names) | Name source files using `lowercase_with_underscores`. |  |
@@ -79,7 +80,6 @@
 | [`prefer_is_not_operator`](https://dart.dev/lints/prefer_is_not_operator) | Prefer is! operator. | ✅ |
 | [`prefer_null_aware_operators`](https://dart.dev/lints/prefer_null_aware_operators) | Prefer using null aware operators. | ✅ |
 | [`prefer_spread_collections`](https://dart.dev/lints/prefer_spread_collections) | Use spread collections when possible. | ✅ |
-| [`prefer_void_to_null`](https://dart.dev/lints/prefer_void_to_null) | Don't use the Null type, unless you are positive that you don't want void. | ✅ |
 | [`recursive_getters`](https://dart.dev/lints/recursive_getters) | Property getter recursively returns itself. |  |
 | [`slash_for_doc_comments`](https://dart.dev/lints/slash_for_doc_comments) | Prefer using /// for doc comments. | ✅ |
 | [`type_init_formals`](https://dart.dev/lints/type_init_formals) | Don't type annotate initializing formals. | ✅ |
