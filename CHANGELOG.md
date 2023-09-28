@@ -1,6 +1,8 @@
 ## 3.0.0-beta.2
 
+- Add `dangling_library_doc_comments` to core.
 - Remove `no_wildcard_variable_uses` from core.
+- Remove `prefer_void_to_null` from recommended.
 
 ## 3.0.0-beta
 

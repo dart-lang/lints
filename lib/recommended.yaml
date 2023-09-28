@@ -47,7 +47,6 @@ linter:
     - prefer_is_not_operator
     - prefer_null_aware_operators
     - prefer_spread_collections
-    - prefer_void_to_null
     - recursive_getters
     - slash_for_doc_comments
     - type_init_formals
