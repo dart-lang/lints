@@ -1,23 +1,20 @@
-## 3.0.0-beta.2
-
-- Add `dangling_library_doc_comments` to core.
-- Remove `no_wildcard_variable_uses` from core.
-- Remove `prefer_void_to_null` from recommended.
-
-## 3.0.0-beta
+## 3.0.0
 
 - `core`:
   - added `collection_methods_unrelated_type`
+  - added `dangling_library_doc_comments`
   - added `implicit_call_tearoffs`
   - added `secure_pubspec_urls`
   - added `type_literal_in_constant_pattern`
   - added `use_string_in_part_of_directives`
   - removed `iterable_contains_unrelated_type`
   - removed `list_remove_unrelated_type`
+  - removed `no_wildcard_variable_uses`
 - `recommended`:
   - added `unnecessary_to_list_in_spreads`
   - added `use_super_parameters`
   - removed `prefer_equal_for_default_values`
+  - removed `prefer_void_to_null`
 - Add info about which lints have quick fixes to the package's readme.
 - Move the list of lint rules from the readme to a separate
   [rules.md](https://github.com/dart-lang/lints/blob/main/rules.md) file.
