@@ -9,7 +9,6 @@
   - added `use_string_in_part_of_directives`
   - removed `iterable_contains_unrelated_type`
   - removed `list_remove_unrelated_type`
-  - removed `no_wildcard_variable_uses`
 - `recommended`:
   - added `unnecessary_to_list_in_spreads`
   - added `use_super_parameters`
