@@ -1,5 +1,5 @@
 name: lints
-version: 3.0.0
+version: 4.0.0-wip
 description: >
   Official Dart lint rules. Defines the 'core' and 'recommended' set of lints
   suggested by the Dart team.
@@ -10,7 +10,7 @@ topics:
   - lints
 
 environment:
-  sdk: ^3.0.0
+  sdk: ^3.1.0
 
 # NOTE: Code is not allowed in this package - do not add dependencies.
 # dependencies:

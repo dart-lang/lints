@@ -1,3 +1,9 @@
+## 4.0.0-wip
+
+- `core`:
+  - added `no_wildcard_variable_uses`
+- Updated the SDK lower-bound to 3.1.
+
 ## 3.0.0
 
 - `core`:
