@@ -21,6 +21,7 @@
 | [`hash_and_equals`](https://dart.dev/lints/hash_and_equals) | Always override `hashCode` if overriding `==`. | ✅ |
 | [`implicit_call_tearoffs`](https://dart.dev/lints/implicit_call_tearoffs) | Explicitly tear-off `call` methods when using an object as a Function. | ✅ |
 | [`no_duplicate_case_values`](https://dart.dev/lints/no_duplicate_case_values) | Don't use more than one case with same value. | ✅ |
+| [`no_wildcard_variable_uses`](https://dart.dev/lints/no_wildcard_variable_uses) | Don't use wildcard parameters or variables. |  |
 | [`non_constant_identifier_names`](https://dart.dev/lints/non_constant_identifier_names) | Name non-constant identifiers using lowerCamelCase. | ✅ |
 | [`null_check_on_nullable_type_parameter`](https://dart.dev/lints/null_check_on_nullable_type_parameter) | Don't use null check on a potentially nullable type parameter. | ✅ |
 | [`package_prefixed_library_names`](https://dart.dev/lints/package_prefixed_library_names) | Prefix library names with the package name and a dot-separated path. |  |
