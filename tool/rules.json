@@ -45,6 +45,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "avoid_unstable_final_fields",
+    "description": "Avoid overriding a final field to return different values if called multiple times.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "avoid_web_libraries_in_flutter",
     "description": "Avoid using web-only libraries outside Flutter web plugin packages.",
     "fixStatus": "noFix"
