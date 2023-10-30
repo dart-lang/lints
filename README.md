@@ -55,7 +55,7 @@ For existing apps or packages, you can enable these lints via:
 1.  In a terminal, located at the root of your package, run this command:
 
     ```terminal
-    dart pub add --dev lints
+    dart pub add dev:lints
     ```
 
 2.  Create a new `analysis_options.yaml` file, next to the pubspec, that
