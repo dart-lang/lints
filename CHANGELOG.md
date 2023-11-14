@@ -3,6 +3,7 @@
 - `core`:
   - added `no_wildcard_variable_uses`
 - Updated the SDK lower-bound to 3.1.
+- Add a section on upgrading to the latest lint set to the readme.
 
 ## 3.0.0
 

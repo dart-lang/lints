@@ -71,6 +71,14 @@ For existing apps or packages, you can enable these lints via:
     include: package:lints/core.yaml
     ```
 
+## Upgrading to the latest lints
+
+To upgrade to the latest version of the lint set, run:
+
+```
+dart pub add dev:lints
+```
+
 ## Customizing the predefined lint sets
 
 For details on customizing static analysis above and beyond the predefined
