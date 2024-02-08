@@ -5,7 +5,7 @@
 <!-- core -->
 | Lint Rules | Description | [Fix][] |
 | :--------- | :---------- | ------- |
-| [`avoid_empty_else`](https://dart.dev/lints/avoid_empty_else) | Avoid empty else statements. | ✅ |
+| [`avoid_empty_else`](https://dart.dev/lints/avoid_empty_else) | Avoid empty statements in else clauses. | ✅ |
 | [`avoid_relative_lib_imports`](https://dart.dev/lints/avoid_relative_lib_imports) | Avoid relative imports for files in `lib/`. | ✅ |
 | [`avoid_shadowing_type_parameters`](https://dart.dev/lints/avoid_shadowing_type_parameters) | Avoid shadowing type parameters. |  |
 | [`avoid_types_as_parameter_names`](https://dart.dev/lints/avoid_types_as_parameter_names) | Avoid types as parameter names. | ✅ |
@@ -20,11 +20,11 @@
 | [`file_names`](https://dart.dev/lints/file_names) | Name source files using `lowercase_with_underscores`. |  |
 | [`hash_and_equals`](https://dart.dev/lints/hash_and_equals) | Always override `hashCode` if overriding `==`. | ✅ |
 | [`implicit_call_tearoffs`](https://dart.dev/lints/implicit_call_tearoffs) | Explicitly tear-off `call` methods when using an object as a Function. | ✅ |
+| [`library_annotations`](https://dart.dev/lints/library_annotations) | Attach library annotations to library directives. | ✅ |
 | [`no_duplicate_case_values`](https://dart.dev/lints/no_duplicate_case_values) | Don't use more than one case with same value. | ✅ |
 | [`no_wildcard_variable_uses`](https://dart.dev/lints/no_wildcard_variable_uses) | Don't use wildcard parameters or variables. |  |
 | [`non_constant_identifier_names`](https://dart.dev/lints/non_constant_identifier_names) | Name non-constant identifiers using lowerCamelCase. | ✅ |
 | [`null_check_on_nullable_type_parameter`](https://dart.dev/lints/null_check_on_nullable_type_parameter) | Don't use null check on a potentially nullable type parameter. | ✅ |
-| [`package_prefixed_library_names`](https://dart.dev/lints/package_prefixed_library_names) | Prefix library names with the package name and a dot-separated path. |  |
 | [`prefer_generic_function_type_aliases`](https://dart.dev/lints/prefer_generic_function_type_aliases) | Prefer generic function type aliases. | ✅ |
 | [`prefer_is_empty`](https://dart.dev/lints/prefer_is_empty) | Use `isEmpty` for Iterables and Maps. | ✅ |
 | [`prefer_is_not_empty`](https://dart.dev/lints/prefer_is_not_empty) | Use `isNotEmpty` for Iterables and Maps. | ✅ |
