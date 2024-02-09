@@ -11,7 +11,7 @@
   },
   {
     "name": "avoid_empty_else",
-    "description": "Avoid empty else statements.",
+    "description": "Avoid empty statements in else clauses.",
     "fixStatus": "hasFix"
   },
   {

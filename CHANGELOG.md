@@ -1,7 +1,9 @@
 ## 4.0.0-wip
 
 - `core`:
-  - added `no_wildcard_variable_uses`
+  - added `library_annotations` (https://github.com/dart-lang/lints/issues/177)
+  - added `no_wildcard_variable_uses` (https://github.com/dart-lang/lints/issues/139)
+  - removed `package_prefixed_library_names` (https://github.com/dart-lang/lints/issues/172)
 - Updated the SDK lower-bound to 3.1.
 - Add a section on upgrading to the latest lint set to the readme.
 

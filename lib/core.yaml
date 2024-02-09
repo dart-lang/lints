@@ -21,11 +21,11 @@ linter:
     - file_names
     - hash_and_equals
     - implicit_call_tearoffs
+    - library_annotations
     - no_duplicate_case_values
     - no_wildcard_variable_uses
     - non_constant_identifier_names
     - null_check_on_nullable_type_parameter
-    - package_prefixed_library_names
     - prefer_generic_function_type_aliases
     - prefer_is_empty
     - prefer_is_not_empty
