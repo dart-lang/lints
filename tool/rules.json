@@ -27,7 +27,7 @@
   {
     "name": "avoid_returning_null_for_future",
     "description": "Avoid returning null for Future.",
-    "fixStatus": "hasFix"
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_slow_async_io",
@@ -72,7 +72,7 @@
   {
     "name": "comment_references",
     "description": "Only reference in scope identifiers in doc comments.",
-    "fixStatus": "noFix"
+    "fixStatus": "hasFix"
   },
   {
     "name": "control_flow_in_finally",
@@ -82,7 +82,7 @@
   {
     "name": "deprecated_member_use_from_same_package",
     "description": "Avoid using deprecated elements from within the package in which they are declared.",
-    "fixStatus": "needsFix"
+    "fixStatus": "hasFix"
   },
   {
     "name": "diagnostic_describe_all_properties",
@@ -135,6 +135,11 @@
     "fixStatus": "noFix"
   },
   {
+    "name": "missing_code_block_language_in_doc_comment",
+    "description": "A code block is missing a specified language.",
+    "fixStatus": "needsEvaluation"
+  },
+  {
     "name": "no_adjacent_strings_in_list",
     "description": "Don't use adjacent strings in list.",
     "fixStatus": "needsFix"
@@ -178,6 +183,11 @@
     "name": "throw_in_finally",
     "description": "Avoid `throw` in finally block.",
     "fixStatus": "noFix"
+  },
+  {
+    "name": "unintended_html_in_doc_comment",
+    "description": "Use of angle brackets in a doc comment is treated as HTML by Markdown.",
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "unnecessary_statements",
@@ -247,7 +257,7 @@
   {
     "name": "always_require_non_null_named_parameters",
     "description": "Specify `@required` on named parameters without defaults.",
-    "fixStatus": "hasFix"
+    "fixStatus": "noFix"
   },
   {
     "name": "always_specify_types",
@@ -522,7 +532,7 @@
   {
     "name": "flutter_style_todos",
     "description": "Use Flutter TODO format: // TODO(username): message, https://URL-to-issue.",
-    "fixStatus": "noFix"
+    "fixStatus": "hasFix"
   },
   {
     "name": "implementation_imports",
@@ -871,7 +881,7 @@
   },
   {
     "name": "require_trailing_commas",
-    "description": "Use trailing commas for all function calls and declarations.",
+    "description": "Use trailing commas for all parameter lists and argument lists.",
     "fixStatus": "hasFix"
   },
   {
@@ -982,6 +992,11 @@
   {
     "name": "unnecessary_library_directive",
     "description": "Avoid library directives unless they have documentation comments or annotations.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "unnecessary_library_name",
+    "description": "Don't have a library name in a `library` declaration.",
     "fixStatus": "hasFix"
   },
   {

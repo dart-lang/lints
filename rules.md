@@ -59,7 +59,6 @@
 | [`empty_statements`](https://dart.dev/lints/empty_statements) | Avoid empty statements. | ✅ |
 | [`exhaustive_cases`](https://dart.dev/lints/exhaustive_cases) | Define case clauses for all constants in enum-like classes. | ✅ |
 | [`implementation_imports`](https://dart.dev/lints/implementation_imports) | Don't import implementation files from another package. |  |
-| [`library_names`](https://dart.dev/lints/library_names) | Name libraries using `lowercase_with_underscores`. |  |
 | [`library_prefixes`](https://dart.dev/lints/library_prefixes) | Use `lowercase_with_underscores` when specifying a library prefix. |  |
 | [`library_private_types_in_public_api`](https://dart.dev/lints/library_private_types_in_public_api) | Avoid using private types in public APIs. |  |
 | [`no_leading_underscores_for_library_prefixes`](https://dart.dev/lints/no_leading_underscores_for_library_prefixes) | Avoid leading underscores for library prefixes. | ✅ |

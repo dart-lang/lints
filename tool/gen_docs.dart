@@ -90,14 +90,8 @@ String _createRuleTable(
       final ruleMeta =
           lintMeta.firstWhereOrNull((meta) => meta['name'] == rule);
 
-      if (ruleMeta == null) {
-        print('rules.json data for rule \'$rule\' not found.');
-        print('Update lib/rules.json from '
-            'https://raw.githubusercontent.com/dart-lang/site-www/main/src/_data/linter_rules.json.');
-        exit(1);
-      }
-      final description = ruleMeta['description'] as String?;
-      final hasFix = ruleMeta['fixStatus'] == 'hasFix';
+      final description = ruleMeta?['description'] as String? ?? '';
+      final hasFix = ruleMeta?['fixStatus'] == 'hasFix';
       final fixDesc = hasFix ? '✅' : '';
 
       return '| [`$rule`](https://dart.dev/lints/$rule) | $description | $fixDesc |';
