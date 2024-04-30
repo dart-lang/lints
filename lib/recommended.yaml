@@ -25,7 +25,6 @@ linter:
     - empty_statements
     - exhaustive_cases
     - implementation_imports
-    - library_names
     - library_prefixes
     - library_private_types_in_public_api
     - no_leading_underscores_for_library_prefixes
