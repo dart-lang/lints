@@ -1,4 +1,4 @@
-## 4.0.0-wip
+## 4.0.0
 
 - `core`:
   - added `library_annotations` (https://github.com/dart-lang/lints/issues/177)

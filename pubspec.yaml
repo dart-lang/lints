@@ -1,5 +1,5 @@
 name: lints
-version: 4.0.0-wip
+version: 4.0.0
 description: >
   Official Dart lint rules. Defines the 'core' and 'recommended' set of lints
   suggested by the Dart team.
