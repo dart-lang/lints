@@ -16,7 +16,6 @@ environment:
 # dependencies:
 
 dev_dependencies:
-  collection: ^1.17.0
   http: ^1.0.0
   path: ^1.8.0
   yaml: ^3.1.0
