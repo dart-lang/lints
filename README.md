@@ -39,7 +39,7 @@ For more information about topics, visit
 
 ## Where these lints are used
 
-When creating new Dart project using the [`dart create`][dart create] command,
+When creating a new Dart project using the [`dart create`][dart create] command,
 the `recommended` set of lints from `package:lints` is enabled by default.
 
 When uploading a package to the [pub.dev] package repository, packages are
