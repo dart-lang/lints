@@ -54,6 +54,7 @@ linter:
     - unnecessary_constructor_name
     - unnecessary_getters_setters
     - unnecessary_late
+    - unnecessary_library_name
     - unnecessary_new
     - unnecessary_null_aware_assignments
     - unnecessary_null_in_if_null_operators

@@ -1,245 +1,5 @@
 [
   {
-    "name": "always_use_package_imports",
-    "description": "Avoid relative imports for files in `lib/`.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "avoid_dynamic_calls",
-    "description": "Avoid method calls or property accesses on a \"dynamic\" target.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "avoid_empty_else",
-    "description": "Avoid empty statements in else clauses.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "avoid_print",
-    "description": "Avoid `print` calls in production code.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "avoid_relative_lib_imports",
-    "description": "Avoid relative imports for files in `lib/`.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "avoid_returning_null_for_future",
-    "description": "Avoid returning null for Future.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "avoid_slow_async_io",
-    "description": "Avoid slow async `dart:io` methods.",
-    "fixStatus": "needsFix"
-  },
-  {
-    "name": "avoid_type_to_string",
-    "description": "Avoid <Type>.toString() in production code since results may be minified.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "avoid_types_as_parameter_names",
-    "description": "Avoid types as parameter names.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "avoid_unstable_final_fields",
-    "description": "Avoid overriding a final field to return different values if called multiple times.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "avoid_web_libraries_in_flutter",
-    "description": "Avoid using web-only libraries outside Flutter web plugin packages.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "cancel_subscriptions",
-    "description": "Cancel instances of dart.async.StreamSubscription.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "close_sinks",
-    "description": "Close instances of `dart.core.Sink`.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "collection_methods_unrelated_type",
-    "description": "Invocation of various collection methods with arguments of unrelated types.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "comment_references",
-    "description": "Only reference in scope identifiers in doc comments.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "control_flow_in_finally",
-    "description": "Avoid control flow in finally blocks.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "deprecated_member_use_from_same_package",
-    "description": "Avoid using deprecated elements from within the package in which they are declared.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "diagnostic_describe_all_properties",
-    "description": "DO reference all public properties in debug methods.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "discarded_futures",
-    "description": "Don't invoke asynchronous functions in non-async blocks.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "empty_statements",
-    "description": "Avoid empty statements.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "hash_and_equals",
-    "description": "Always override `hashCode` if overriding `==`.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "implicit_reopen",
-    "description": "Don't implicitly reopen classes.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "invalid_case_patterns",
-    "description": "Use case expressions that are valid in Dart 3.0.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "invariant_booleans",
-    "description": "Conditions should not unconditionally evaluate to `true` or to `false`.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "iterable_contains_unrelated_type",
-    "description": "Invocation of Iterable<E>.contains with references of unrelated types.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "list_remove_unrelated_type",
-    "description": "Invocation of `remove` with references of unrelated types.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "literal_only_boolean_expressions",
-    "description": "Boolean expression composed only with literals.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "missing_code_block_language_in_doc_comment",
-    "description": "A code block is missing a specified language.",
-    "fixStatus": "needsEvaluation"
-  },
-  {
-    "name": "no_adjacent_strings_in_list",
-    "description": "Don't use adjacent strings in list.",
-    "fixStatus": "needsFix"
-  },
-  {
-    "name": "no_duplicate_case_values",
-    "description": "Don't use more than one case with same value.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "no_logic_in_create_state",
-    "description": "Don't put any logic in createState.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "no_self_assignments",
-    "description": "Don't assign a variable to itself.",
-    "fixStatus": "needsEvaluation"
-  },
-  {
-    "name": "no_wildcard_variable_uses",
-    "description": "Don't use wildcard parameters or variables.",
-    "fixStatus": "needsEvaluation"
-  },
-  {
-    "name": "prefer_relative_imports",
-    "description": "Prefer relative imports for files in `lib/`.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "prefer_void_to_null",
-    "description": "Don't use the Null type, unless you are positive that you don't want void.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "test_types_in_equals",
-    "description": "Test type arguments in operator ==(Object other).",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "throw_in_finally",
-    "description": "Avoid `throw` in finally block.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "unintended_html_in_doc_comment",
-    "description": "Use of angle brackets in a doc comment is treated as HTML by Markdown.",
-    "fixStatus": "needsEvaluation"
-  },
-  {
-    "name": "unnecessary_statements",
-    "description": "Avoid using unnecessary statements.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "unrelated_type_equality_checks",
-    "description": "Equality operator `==` invocation with references of unrelated types.",
-    "fixStatus": "unregistered"
-  },
-  {
-    "name": "unsafe_html",
-    "description": "Avoid unsafe HTML APIs.",
-    "fixStatus": "unregistered"
-  },
-  {
-    "name": "use_build_context_synchronously",
-    "description": "Do not use BuildContexts across async gaps.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "use_key_in_widget_constructors",
-    "description": "Use key in widget constructors.",
-    "fixStatus": "hasFix"
-  },
-  {
-    "name": "valid_regexps",
-    "description": "Use valid regular expression syntax.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "depend_on_referenced_packages",
-    "description": "Depend on referenced packages.",
-    "fixStatus": "needsFix"
-  },
-  {
-    "name": "package_names",
-    "description": "Use `lowercase_with_underscores` for package names.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "secure_pubspec_urls",
-    "description": "Use secure urls in `pubspec.yaml`.",
-    "fixStatus": "noFix"
-  },
-  {
-    "name": "sort_pub_dependencies",
-    "description": "Sort pub dependencies alphabetically.",
-    "fixStatus": "needsFix"
-  },
-  {
     "name": "always_declare_return_types",
     "description": "Declare method return types.",
     "fixStatus": "hasFix"
@@ -265,6 +25,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "always_use_package_imports",
+    "description": "Avoid relative imports for files in `lib/`.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "annotate_overrides",
     "description": "Annotate overridden members.",
     "fixStatus": "hasFix"
@@ -276,7 +41,7 @@
   },
   {
     "name": "avoid_annotating_with_dynamic",
-    "description": "Avoid annotating with dynamic when not required.",
+    "description": "Avoid annotating with `dynamic` when not required.",
     "fixStatus": "hasFix"
   },
   {
@@ -286,7 +51,7 @@
   },
   {
     "name": "avoid_bool_literals_in_conditional_expressions",
-    "description": "Avoid bool literals in conditional expressions.",
+    "description": "Avoid `bool` literals in conditional expressions.",
     "fixStatus": "needsFix"
   },
   {
@@ -296,7 +61,7 @@
   },
   {
     "name": "avoid_catching_errors",
-    "description": "Don't explicitly catch Error or types that implement it.",
+    "description": "Don't explicitly catch `Error` or types that implement it.",
     "fixStatus": "unregistered"
   },
   {
@@ -306,8 +71,18 @@
   },
   {
     "name": "avoid_double_and_int_checks",
-    "description": "Avoid double and int checks.",
+    "description": "Avoid `double` and `int` checks.",
     "fixStatus": "needsFix"
+  },
+  {
+    "name": "avoid_dynamic_calls",
+    "description": "Avoid method calls or property accesses on a `dynamic` target.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "avoid_empty_else",
+    "description": "Avoid empty statements in else clauses.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_equals_and_hash_code_on_mutable_classes",
@@ -326,7 +101,7 @@
   },
   {
     "name": "avoid_final_parameters",
-    "description": "Avoid final for parameter declarations.",
+    "description": "Avoid `final` for parameter declarations.",
     "fixStatus": "needsFix"
   },
   {
@@ -341,7 +116,7 @@
   },
   {
     "name": "avoid_init_to_null",
-    "description": "Don't explicitly initialize variables to null.",
+    "description": "Don't explicitly initialize variables to `null`.",
     "fixStatus": "hasFix"
   },
   {
@@ -356,13 +131,18 @@
   },
   {
     "name": "avoid_null_checks_in_equality_operators",
-    "description": "Don't check for null in custom == operators.",
+    "description": "Don't check for `null` in custom `==` operators.",
     "fixStatus": "hasFix"
   },
   {
     "name": "avoid_positional_boolean_parameters",
     "description": "Avoid positional boolean parameters.",
     "fixStatus": "noFix"
+  },
+  {
+    "name": "avoid_print",
+    "description": "Avoid `print` calls in production code.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "avoid_private_typedef_functions",
@@ -372,6 +152,11 @@
   {
     "name": "avoid_redundant_argument_values",
     "description": "Avoid redundant argument values.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "avoid_relative_lib_imports",
+    "description": "Avoid relative imports for files in `lib/`.",
     "fixStatus": "hasFix"
   },
   {
@@ -390,8 +175,13 @@
     "fixStatus": "noFix"
   },
   {
+    "name": "avoid_returning_null_for_future",
+    "description": "Avoid returning null for Future.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "avoid_returning_null_for_void",
-    "description": "Avoid returning null for void.",
+    "description": "Avoid returning `null` for `void`.",
     "fixStatus": "hasFix"
   },
   {
@@ -415,6 +205,21 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "avoid_slow_async_io",
+    "description": "Avoid slow asynchronous `dart:io` methods.",
+    "fixStatus": "needsFix"
+  },
+  {
+    "name": "avoid_type_to_string",
+    "description": "Avoid <Type>.toString() in production code since results may be minified.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "avoid_types_as_parameter_names",
+    "description": "Avoid types as parameter names.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "avoid_types_on_closure_parameters",
     "description": "Avoid annotating types for function expression parameters.",
     "fixStatus": "hasFix"
@@ -425,14 +230,24 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "avoid_unstable_final_fields",
+    "description": "Avoid overriding a final field to return different values if called multiple times.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "avoid_unused_constructor_parameters",
     "description": "Avoid defining unused parameters in constructors.",
     "fixStatus": "hasFix"
   },
   {
     "name": "avoid_void_async",
-    "description": "Avoid async functions that return void.",
+    "description": "Avoid `async` functions that return `void`.",
     "fixStatus": "hasFix"
+  },
+  {
+    "name": "avoid_web_libraries_in_flutter",
+    "description": "Avoid using web-only libraries outside Flutter web plugin packages.",
+    "fixStatus": "noFix"
   },
   {
     "name": "await_only_futures",
@@ -450,6 +265,11 @@
     "fixStatus": "noFix"
   },
   {
+    "name": "cancel_subscriptions",
+    "description": "Cancel instances of `dart:async` `StreamSubscription`.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "cascade_invocations",
     "description": "Cascade consecutive method invocations on the same reference.",
     "fixStatus": "hasFix"
@@ -460,8 +280,23 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "close_sinks",
+    "description": "Close instances of `dart:core` `Sink`.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "collection_methods_unrelated_type",
+    "description": "Invocation of various collection methods with arguments of unrelated types.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "combinators_ordering",
     "description": "Sort combinator names alphabetically.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "comment_references",
+    "description": "Only reference in scope identifiers in doc comments.",
     "fixStatus": "hasFix"
   },
   {
@@ -475,6 +310,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "control_flow_in_finally",
+    "description": "Avoid control flow in `finally` blocks.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "curly_braces_in_flow_control_structures",
     "description": "DO use curly braces for all flow control structures.",
     "fixStatus": "hasFix"
@@ -485,9 +325,24 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "depend_on_referenced_packages",
+    "description": "Depend on referenced packages.",
+    "fixStatus": "needsFix"
+  },
+  {
     "name": "deprecated_consistency",
     "description": "Missing deprecated annotation.",
     "fixStatus": "needsFix"
+  },
+  {
+    "name": "deprecated_member_use_from_same_package",
+    "description": "Avoid using deprecated elements from within the package in which they are declared.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "diagnostic_describe_all_properties",
+    "description": "DO reference all public properties in debug methods.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "directives_ordering",
@@ -495,9 +350,19 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "discarded_futures",
+    "description": "Don't invoke asynchronous functions in non-`async` blocks.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "do_not_use_environment",
     "description": "Do not use environment declared variables.",
     "fixStatus": "noFix"
+  },
+  {
+    "name": "document_ignores",
+    "description": "Document ignore comments.",
+    "fixStatus": "needsFix"
   },
   {
     "name": "empty_catches",
@@ -507,6 +372,11 @@
   {
     "name": "empty_constructor_bodies",
     "description": "Use `;` instead of `{}` for empty constructor bodies.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "empty_statements",
+    "description": "Avoid empty statements.",
     "fixStatus": "hasFix"
   },
   {
@@ -535,6 +405,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "hash_and_equals",
+    "description": "Always override `hashCode` if overriding `==`.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "implementation_imports",
     "description": "Don't import implementation files from another package.",
     "fixStatus": "noFix"
@@ -543,6 +418,31 @@
     "name": "implicit_call_tearoffs",
     "description": "Explicitly tear-off `call` methods when using an object as a Function.",
     "fixStatus": "hasFix"
+  },
+  {
+    "name": "implicit_reopen",
+    "description": "Don't implicitly reopen classes.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "invalid_case_patterns",
+    "description": "Use case expressions that are valid in Dart 3.0.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "invalid_runtime_check_with_js_interop_types",
+    "description": "Avoid runtime type tests with JS interop types where the result may not\n    be platform-consistent.",
+    "fixStatus": "needsFix"
+  },
+  {
+    "name": "invariant_booleans",
+    "description": "Conditions should not unconditionally evaluate to `true` or to `false`.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "iterable_contains_unrelated_type",
+    "description": "Invocation of `Iterable<E>.contains` with references of unrelated types.",
+    "fixStatus": "noFix"
   },
   {
     "name": "join_return_with_assignment",
@@ -580,9 +480,24 @@
     "fixStatus": "noFix"
   },
   {
+    "name": "list_remove_unrelated_type",
+    "description": "Invocation of `remove` with references of unrelated types.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "literal_only_boolean_expressions",
+    "description": "Boolean expression composed only with literals.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "matching_super_parameters",
     "description": "Use matching super parameter names.",
     "fixStatus": "needsFix"
+  },
+  {
+    "name": "missing_code_block_language_in_doc_comment",
+    "description": "A code block is missing a specified language.",
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "missing_whitespace_between_adjacent_strings",
@@ -590,9 +505,19 @@
     "fixStatus": "needsFix"
   },
   {
+    "name": "no_adjacent_strings_in_list",
+    "description": "Don't use adjacent strings in list.",
+    "fixStatus": "needsFix"
+  },
+  {
     "name": "no_default_cases",
     "description": "No default cases.",
     "fixStatus": "needsFix"
+  },
+  {
+    "name": "no_duplicate_case_values",
+    "description": "Don't use more than one case with same value.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "no_leading_underscores_for_library_prefixes",
@@ -610,9 +535,24 @@
     "fixStatus": "hasFix"
   },
   {
-    "name": "no_runtimeType_toString",
-    "description": "Avoid calling toString() on runtimeType.",
+    "name": "no_logic_in_create_state",
+    "description": "Don't put any logic in createState.",
     "fixStatus": "noFix"
+  },
+  {
+    "name": "no_runtimeType_toString",
+    "description": "Avoid calling `toString()` on `runtimeType`.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "no_self_assignments",
+    "description": "Don't assign a variable to itself.",
+    "fixStatus": "needsEvaluation"
+  },
+  {
+    "name": "no_wildcard_variable_uses",
+    "description": "Don't use wildcard parameters or variables.",
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "non_constant_identifier_names",
@@ -626,7 +566,7 @@
   },
   {
     "name": "null_check_on_nullable_type_parameter",
-    "description": "Don't use null check on a potentially nullable type parameter.",
+    "description": "Don't use `null` check on a potentially nullable type parameter.",
     "fixStatus": "hasFix"
   },
   {
@@ -657,6 +597,11 @@
   {
     "name": "package_api_docs",
     "description": "Provide doc comments for all public APIs.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "package_names",
+    "description": "Use `lowercase_with_underscores` for package names.",
     "fixStatus": "noFix"
   },
   {
@@ -696,22 +641,22 @@
   },
   {
     "name": "prefer_conditional_assignment",
-    "description": "Prefer using `??=` over testing for null.",
+    "description": "Prefer using `??=` over testing for `null`.",
     "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_constructors",
-    "description": "Prefer const with constant constructors.",
+    "description": "Prefer `const` with constant constructors.",
     "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_constructors_in_immutables",
-    "description": "Prefer declaring const constructors on `@immutable` classes.",
+    "description": "Prefer declaring `const` constructors on `@immutable` classes.",
     "fixStatus": "hasFix"
   },
   {
     "name": "prefer_const_declarations",
-    "description": "Prefer const over final for declarations.",
+    "description": "Prefer `const` over `final` for declarations.",
     "fixStatus": "hasFix"
   },
   {
@@ -746,7 +691,7 @@
   },
   {
     "name": "prefer_final_fields",
-    "description": "Private field could be final.",
+    "description": "Private field could be `final`.",
     "fixStatus": "hasFix"
   },
   {
@@ -766,7 +711,7 @@
   },
   {
     "name": "prefer_for_elements_to_map_fromIterable",
-    "description": "Prefer 'for' elements when building maps from iterables.",
+    "description": "Prefer `for` elements when building maps from iterables.",
     "fixStatus": "hasFix"
   },
   {
@@ -791,7 +736,7 @@
   },
   {
     "name": "prefer_if_null_operators",
-    "description": "Prefer using if null operators.",
+    "description": "Prefer using `??` operators.",
     "fixStatus": "hasFix"
   },
   {
@@ -816,12 +761,12 @@
   },
   {
     "name": "prefer_is_empty",
-    "description": "Use `isEmpty` for Iterables and Maps.",
+    "description": "Use `isEmpty` for `Iterable`s and `Map`s.",
     "fixStatus": "hasFix"
   },
   {
     "name": "prefer_is_not_empty",
-    "description": "Use `isNotEmpty` for Iterables and Maps.",
+    "description": "Use `isNotEmpty` for `Iterable`s and `Map`s.",
     "fixStatus": "hasFix"
   },
   {
@@ -831,7 +776,7 @@
   },
   {
     "name": "prefer_iterable_whereType",
-    "description": "Prefer to use whereType on iterable.",
+    "description": "Prefer to use `whereType` on iterable.",
     "fixStatus": "hasFix"
   },
   {
@@ -841,12 +786,17 @@
   },
   {
     "name": "prefer_null_aware_method_calls",
-    "description": "Prefer null aware method calls.",
+    "description": "Prefer `null`-aware method calls.",
     "fixStatus": "needsFix"
   },
   {
     "name": "prefer_null_aware_operators",
-    "description": "Prefer using null aware operators.",
+    "description": "Prefer using `null`-aware operators.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "prefer_relative_imports",
+    "description": "Prefer relative imports for files in `lib/`.",
     "fixStatus": "hasFix"
   },
   {
@@ -865,8 +815,13 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "prefer_void_to_null",
+    "description": "Don't use the Null type, unless you are positive that you don't want void.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "provide_deprecation_message",
-    "description": "Provide a deprecation message, via @Deprecated(\"message\").",
+    "description": "Provide a deprecation message, via `@Deprecated(\"message\")`.",
     "fixStatus": "noFix"
   },
   {
@@ -885,8 +840,13 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "secure_pubspec_urls",
+    "description": "Use secure urls in `pubspec.yaml`.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "sized_box_for_whitespace",
-    "description": "SizedBox for whitespace.",
+    "description": "`SizedBox` for whitespace.",
     "fixStatus": "hasFix"
   },
   {
@@ -896,7 +856,7 @@
   },
   {
     "name": "slash_for_doc_comments",
-    "description": "Prefer using /// for doc comments.",
+    "description": "Prefer using `///` for doc comments.",
     "fixStatus": "hasFix"
   },
   {
@@ -910,6 +870,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "sort_pub_dependencies",
+    "description": "Sort pub dependencies alphabetically.",
+    "fixStatus": "needsFix"
+  },
+  {
     "name": "sort_unnamed_constructors_first",
     "description": "Sort unnamed constructor declarations first.",
     "fixStatus": "hasFix"
@@ -917,6 +882,16 @@
   {
     "name": "super_goes_last",
     "description": "Place the `super` call last in a constructor initialization list.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "test_types_in_equals",
+    "description": "Test type of argument in `operator ==(Object other)`.",
+    "fixStatus": "noFix"
+  },
+  {
+    "name": "throw_in_finally",
+    "description": "Avoid `throw` in `finally` block.",
     "fixStatus": "noFix"
   },
   {
@@ -945,9 +920,14 @@
     "fixStatus": "hasFix"
   },
   {
-    "name": "unnecessary_await_in_return",
-    "description": "Unnecessary await keyword in return.",
+    "name": "unintended_html_in_doc_comment",
+    "description": "Use of angle brackets in a doc comment is treated as HTML by Markdown.",
     "fixStatus": "needsFix"
+  },
+  {
+    "name": "unnecessary_await_in_return",
+    "description": "Unnecessary `await` keyword in return.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_brace_in_string_interps",
@@ -961,7 +941,7 @@
   },
   {
     "name": "unnecessary_const",
-    "description": "Avoid const keyword.",
+    "description": "Avoid `const` keyword.",
     "fixStatus": "hasFix"
   },
   {
@@ -1006,7 +986,7 @@
   },
   {
     "name": "unnecessary_null_aware_assignments",
-    "description": "Avoid null in null-aware assignment.",
+    "description": "Avoid `null` in `null`-aware assignment.",
     "fixStatus": "hasFix"
   },
   {
@@ -1016,12 +996,12 @@
   },
   {
     "name": "unnecessary_null_checks",
-    "description": "Unnecessary null checks.",
+    "description": "Unnecessary `null` checks.",
     "fixStatus": "hasFix"
   },
   {
     "name": "unnecessary_null_in_if_null_operators",
-    "description": "Avoid using `null` in `if null` operators.",
+    "description": "Avoid using `null` in `??` operators.",
     "fixStatus": "hasFix"
   },
   {
@@ -1045,6 +1025,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "unnecessary_statements",
+    "description": "Avoid using unnecessary statements.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "unnecessary_string_escapes",
     "description": "Remove unnecessary backslashes in strings.",
     "fixStatus": "hasFix"
@@ -1061,13 +1046,28 @@
   },
   {
     "name": "unnecessary_to_list_in_spreads",
-    "description": "Unnecessary toList() in spreads.",
+    "description": "Unnecessary `toList()` in spreads.",
     "fixStatus": "hasFix"
   },
   {
     "name": "unreachable_from_main",
     "description": "Unreachable top-level members in executable libraries.",
     "fixStatus": "hasFix"
+  },
+  {
+    "name": "unrelated_type_equality_checks",
+    "description": "Equality operator `==` invocation with references of unrelated types.",
+    "fixStatus": "unregistered"
+  },
+  {
+    "name": "unsafe_html",
+    "description": "Avoid unsafe HTML APIs.",
+    "fixStatus": "unregistered"
+  },
+  {
+    "name": "use_build_context_synchronously",
+    "description": "Do not use `BuildContext` across asynchronous gaps.",
+    "fixStatus": "unregistered"
   },
   {
     "name": "use_colored_box",
@@ -1096,13 +1096,18 @@
   },
   {
     "name": "use_if_null_to_convert_nulls_to_bools",
-    "description": "Use if-null operators to convert nulls to bools.",
+    "description": "Use `??` operators to convert `null`s to `bool`s.",
     "fixStatus": "needsFix"
   },
   {
     "name": "use_is_even_rather_than_modulo",
     "description": "Prefer intValue.isOdd/isEven instead of checking the result of % 2.",
     "fixStatus": "needsFix"
+  },
+  {
+    "name": "use_key_in_widget_constructors",
+    "description": "Use key in widget constructors.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_late_for_private_fields_and_variables",
@@ -1112,7 +1117,7 @@
   {
     "name": "use_named_constants",
     "description": "Use predefined named constants.",
-    "fixStatus": "needsFix"
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_raw_strings",
@@ -1155,8 +1160,13 @@
     "fixStatus": "noFix"
   },
   {
+    "name": "valid_regexps",
+    "description": "Use valid regular expression syntax.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "void_checks",
-    "description": "Don't assign to void.",
+    "description": "Don't assign to `void`.",
     "fixStatus": "noFix"
   }
 ]
