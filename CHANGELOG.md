@@ -1,3 +1,11 @@
+## 5.0.0-wip
+
+- `recommended`:
+  - added [unnecessary_library_name] (https://github.com/dart-lang/lints/issues/181)
+- Updated the SDK lower-bound to 3.4.
+
+[unnecessary_library_name]: https://dart.dev/lints/unnecessary_library_name
+
 ## 4.0.0
 
 - `core`:
