@@ -2,9 +2,11 @@
 
 - `recommended`:
   - added [unnecessary_library_name] (https://github.com/dart-lang/lints/issues/181)
-- Updated the SDK lower-bound to 3.4.
+  - added [invalid_runtime_check_with_js_interop_types] (https://github.com/dart-lang/lints/issues/188)
+- Updated the SDK lower-bound to 3.5.
 
 [unnecessary_library_name]: https://dart.dev/lints/unnecessary_library_name
+[invalid_runtime_check_with_js_interop_types]: https://dart.dev/tools/linter-rules/invalid_runtime_check_with_js_interop_types
 
 ## 4.0.0
 

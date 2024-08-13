@@ -10,7 +10,7 @@ topics:
   - lints
 
 environment:
-  sdk: ^3.4.0
+  sdk: ^3.5.0
 
 # NOTE: Code is not allowed in this package - do not add dependencies.
 # dependencies:
