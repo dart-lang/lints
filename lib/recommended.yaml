@@ -25,6 +25,7 @@ linter:
     - empty_statements
     - exhaustive_cases
     - implementation_imports
+    - invalid_runtime_check_with_js_interop_types
     - library_prefixes
     - library_private_types_in_public_api
     - no_leading_underscores_for_library_prefixes

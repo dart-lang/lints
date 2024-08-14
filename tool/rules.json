@@ -296,7 +296,7 @@
   },
   {
     "name": "comment_references",
-    "description": "Only reference in scope identifiers in doc comments.",
+    "description": "Only reference in-scope identifiers in doc comments.",
     "fixStatus": "hasFix"
   },
   {
@@ -531,7 +531,7 @@
   },
   {
     "name": "no_literal_bool_comparisons",
-    "description": "Don't compare booleans to boolean literals.",
+    "description": "Don't compare Boolean expressions to Boolean literals.",
     "fixStatus": "hasFix"
   },
   {
@@ -577,6 +577,11 @@
   {
     "name": "omit_local_variable_types",
     "description": "Omit type annotations for local variables.",
+    "fixStatus": "hasFix"
+  },
+  {
+    "name": "omit_obvious_local_variable_types",
+    "description": "Omit obvious type annotations for local variables.",
     "fixStatus": "hasFix"
   },
   {
@@ -1086,7 +1091,7 @@
   },
   {
     "name": "use_full_hex_values_for_flutter_colors",
-    "description": "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color.",
+    "description": "Prefer an 8-digit hexadecimal integer (for example, 0xFFFFFFFF) to instantiate a Color.",
     "fixStatus": "hasFix"
   },
   {
@@ -1158,6 +1163,11 @@
     "name": "use_to_and_as_if_applicable",
     "description": "Start the name of the method with to/_to or as/_as if applicable.",
     "fixStatus": "noFix"
+  },
+  {
+    "name": "use_truncating_division",
+    "description": "Use truncating division.",
+    "fixStatus": "hasFix"
   },
   {
     "name": "valid_regexps",
