@@ -48,7 +48,6 @@
 | [`annotate_overrides`](https://dart.dev/lints/annotate_overrides) | Annotate overridden members. | ✅ |
 | [`avoid_function_literals_in_foreach_calls`](https://dart.dev/lints/avoid_function_literals_in_foreach_calls) | Avoid using `forEach` with a function literal. | ✅ |
 | [`avoid_init_to_null`](https://dart.dev/lints/avoid_init_to_null) | Don't explicitly initialize variables to `null`. | ✅ |
-| [`avoid_null_checks_in_equality_operators`](https://dart.dev/lints/avoid_null_checks_in_equality_operators) | Don't check for `null` in custom `==` operators. | ✅ |
 | [`avoid_renaming_method_parameters`](https://dart.dev/lints/avoid_renaming_method_parameters) | Don't rename parameters of overridden methods. | ✅ |
 | [`avoid_return_types_on_setters`](https://dart.dev/lints/avoid_return_types_on_setters) | Avoid return types on setters. | ✅ |
 | [`avoid_returning_null_for_void`](https://dart.dev/lints/avoid_returning_null_for_void) | Avoid returning `null` for `void`. | ✅ |
