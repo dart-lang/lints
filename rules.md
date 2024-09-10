@@ -58,8 +58,7 @@
 | [`empty_statements`](https://dart.dev/lints/empty_statements) | Avoid empty statements. | ✅ |
 | [`exhaustive_cases`](https://dart.dev/lints/exhaustive_cases) | Define case clauses for all constants in enum-like classes. | ✅ |
 | [`implementation_imports`](https://dart.dev/lints/implementation_imports) | Don't import implementation files from another package. |  |
-| [`invalid_runtime_check_with_js_interop_types`](https://dart.dev/lints/invalid_runtime_check_with_js_interop_types) | Avoid runtime type tests with JS interop types where the result may not
-    be platform-consistent. |  |
+| [`invalid_runtime_check_with_js_interop_types`](https://dart.dev/lints/invalid_runtime_check_with_js_interop_types) | Avoid runtime type tests with JS interop types where the result may not be platform-consistent. |  |  
 | [`library_prefixes`](https://dart.dev/lints/library_prefixes) | Use `lowercase_with_underscores` when specifying a library prefix. |  |
 | [`library_private_types_in_public_api`](https://dart.dev/lints/library_private_types_in_public_api) | Avoid using private types in public APIs. |  |
 | [`no_leading_underscores_for_library_prefixes`](https://dart.dev/lints/no_leading_underscores_for_library_prefixes) | Avoid leading underscores for library prefixes. | ✅ |
