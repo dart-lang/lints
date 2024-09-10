@@ -171,7 +171,10 @@ String _createRuleTableRow(
   if (ruleMeta == null) {
     stderr.writeln("WARNING: Missing rule information for rule: $rule");
   }
-  final description = ruleMeta?['description'] ?? '';
+  final description = (ruleMeta?['description'] ?? '')
+      .replaceAll('\n', ' ')
+      .replaceAll(RegExp(r'\s+'), ' ')
+      .trim();
   final hasFix = ruleMeta?['fixStatus'] == 'hasFix';
   final fixDesc = hasFix ? '✅' : '';
 
