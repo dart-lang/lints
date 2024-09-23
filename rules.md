@@ -33,6 +33,7 @@
 | [`provide_deprecation_message`](https://dart.dev/lints/provide_deprecation_message) | Provide a deprecation message, via `@Deprecated("message")`. |  |
 | [`secure_pubspec_urls`](https://dart.dev/lints/secure_pubspec_urls) | Use secure urls in `pubspec.yaml`. |  |
 | [`type_literal_in_constant_pattern`](https://dart.dev/lints/type_literal_in_constant_pattern) | Don't use constant patterns with type literals. | ✅ |
+| [`unintended_html_in_doc_comment`](https://dart.dev/lints/unintended_html_in_doc_comment) | Use of angle brackets in a doc comment is treated as HTML by Markdown. |  |
 | [`unnecessary_overrides`](https://dart.dev/lints/unnecessary_overrides) | Don't override a method to do a super method invocation with the same parameters. | ✅ |
 | [`unrelated_type_equality_checks`](https://dart.dev/lints/unrelated_type_equality_checks) | Equality operator `==` invocation with references of unrelated types. |  |
 | [`use_string_in_part_of_directives`](https://dart.dev/lints/use_string_in_part_of_directives) | Use string in part of directives. | ✅ |

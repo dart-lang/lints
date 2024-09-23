@@ -1,14 +1,17 @@
 ## 5.0.0-wip
 
+- `core`:
+  - added [unintended_html_in_doc_comment] (https://github.com/dart-lang/lints/issues/192)
 - `recommended`:
-  - added [unnecessary_library_name] (https://github.com/dart-lang/lints/issues/181)
   - added [invalid_runtime_check_with_js_interop_types] (https://github.com/dart-lang/lints/issues/188)
+  - added [unnecessary_library_name] (https://github.com/dart-lang/lints/issues/181)
   - removed [avoid_null_checks_in_equality_operators] (https://github.com/dart-lang/lints/issues/200)
 - Updated the SDK lower-bound to 3.5.
 
-[unnecessary_library_name]: https://dart.dev/lints/unnecessary_library_name
-[invalid_runtime_check_with_js_interop_types]: https://dart.dev/tools/linter-rules/invalid_runtime_check_with_js_interop_types
 [avoid_null_checks_in_equality_operators]: https://dart.dev/tools/linter-rules/avoid_null_checks_in_equality_operators
+[invalid_runtime_check_with_js_interop_types]: https://dart.dev/tools/linter-rules/invalid_runtime_check_with_js_interop_types
+[unintended_html_in_doc_comment]: https://dart.dev/lints/unnecessary_library_name
+[unnecessary_library_name]: https://dart.dev/lints/unnecessary_library_name
 
 ## 4.0.0
 
