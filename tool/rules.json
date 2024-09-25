@@ -62,7 +62,7 @@
   {
     "name": "avoid_catching_errors",
     "description": "Don't explicitly catch `Error` or types that implement it.",
-    "fixStatus": "unregistered"
+    "fixStatus": "noFix"
   },
   {
     "name": "avoid_classes_with_only_static_members",
@@ -432,7 +432,7 @@
   {
     "name": "invalid_runtime_check_with_js_interop_types",
     "description": "Avoid runtime type tests with JS interop types where the result may not\n    be platform-consistent.",
-    "fixStatus": "needsFix"
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "invariant_booleans",
@@ -531,7 +531,7 @@
   },
   {
     "name": "no_literal_bool_comparisons",
-    "description": "Don't compare Boolean expressions to Boolean literals.",
+    "description": "Don't compare boolean expressions to boolean literals.",
     "fixStatus": "hasFix"
   },
   {
@@ -885,6 +885,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "specify_nonobvious_local_variable_types",
+    "description": "Specify non-obvious type annotations for local variables.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "super_goes_last",
     "description": "Place the `super` call last in a constructor initialization list.",
     "fixStatus": "noFix"
@@ -1062,17 +1067,17 @@
   {
     "name": "unrelated_type_equality_checks",
     "description": "Equality operator `==` invocation with references of unrelated types.",
-    "fixStatus": "unregistered"
+    "fixStatus": "needsEvaluation"
   },
   {
     "name": "unsafe_html",
     "description": "Avoid unsafe HTML APIs.",
-    "fixStatus": "unregistered"
+    "fixStatus": "noFix"
   },
   {
     "name": "use_build_context_synchronously",
     "description": "Do not use `BuildContext` across asynchronous gaps.",
-    "fixStatus": "unregistered"
+    "fixStatus": "noFix"
   },
   {
     "name": "use_colored_box",
