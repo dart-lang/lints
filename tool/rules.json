@@ -110,6 +110,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "avoid_futureor_void",
+    "description": "Avoid using 'FutureOr<void>' as the type of a result.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "avoid_implementing_value_types",
     "description": "Don't implement classes that override `==`.",
     "fixStatus": "noFix"
@@ -585,6 +590,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "omit_obvious_property_types",
+    "description": "Omit obvious type annotations for top-level and static variables.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "one_member_abstracts",
     "description": "Avoid defining a one-member abstract class when a simple function will do.",
     "fixStatus": "noFix"
@@ -890,6 +900,11 @@
     "fixStatus": "hasFix"
   },
   {
+    "name": "specify_nonobvious_property_types",
+    "description": "Specify non-obvious type annotations for top-level and static variables.",
+    "fixStatus": "hasFix"
+  },
+  {
     "name": "super_goes_last",
     "description": "Place the `super` call last in a constructor initialization list.",
     "fixStatus": "noFix"
@@ -1075,6 +1090,11 @@
     "fixStatus": "noFix"
   },
   {
+    "name": "unsafe_variance",
+    "description": "Unsafe type: Has a type variable in a non-covariant position.",
+    "fixStatus": "noFix"
+  },
+  {
     "name": "use_build_context_synchronously",
     "description": "Do not use `BuildContext` across asynchronous gaps.",
     "fixStatus": "noFix"
@@ -1082,7 +1102,7 @@
   {
     "name": "use_colored_box",
     "description": "Use `ColoredBox`.",
-    "fixStatus": "needsFix"
+    "fixStatus": "hasFix"
   },
   {
     "name": "use_decorated_box",
