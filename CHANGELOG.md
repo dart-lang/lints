@@ -1,8 +1,12 @@
+## 5.1.1
+
+- Updated the SDK lower bound to 3.6.
+
 ## 5.1.0
 
 - `core`:
   - added [unintended_html_in_doc_comment] (https://github.com/dart-lang/lints/issues/192)
-- Updated the SDK lower-bound to 3.6.
+- Updated the SDK lower bound to 3.6 (dev).
 
 [unintended_html_in_doc_comment]: https://dart.dev/lints/unintended_html_in_doc_comment
 
